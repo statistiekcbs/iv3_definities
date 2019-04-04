@@ -4,7 +4,7 @@ sjablonen, controlebestanden en hulp-info betreffende iv3
 De naamgeving is als volgt: "iv3_definities_[overheidslaag]_[boekjaar].json".
 
 In elk sjabloon bevinden zich de verplichte codes voor levering van iv3 data van overheidsinstanties aan derden zoals het CBS.
-Elk sjabloon heeft in de naam de overheidslaag (Gemeente, Provincie, GemeenschappelijkeRegeling, Waterschap) 
+Elk sjabloon heeft in de naam de overheidslaag (Gemeente, Provincie, GR, Waterschap) 
 en het boekjaar waarop het sjabloon betrekking heeft.
 
 In eerste instantie leek een indeling conform de vertrouwde iv3-excel-indeling in 3 tabbladen (lasten, baten en balans) 
