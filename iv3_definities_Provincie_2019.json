@@ -1,8 +1,8 @@
 {
 "metadata": {
 	"overheidslaag": "Provincie", 
-  	"boekjaar": "2018", 
-  	"description": "Iv3 test definitiebestand versie 1.0" 
+  	"boekjaar": "2019", 
+  	"omschrijving": "Iv3 test definitiebestand versie 1.0" 
   	},
 "codelijsten": {
     "taakveld": {
@@ -70,27 +70,27 @@
    	"balanscode":{
       "codelijst": [
 		{"code":"A1","description":"Vaste Activa","subcodes":[
-			{"code":"A111","description":"Immateriële vaste activa: Kosten verbonden aan sluiten geldlening en saldo agio/disagio"},
-			{"code":"A112","description":"Immateriële vaste activa: Kosten onderzoek en ontwikkeling voor een bepaald actief"},
-			{"code":"A113","description":"Immateriële vaste activa: Bijdragen aan activa in eigendom van derden"},
-			{"code":"A121","description":"Materiële vaste activa: Gronden en terreinen"},
-			{"code":"A122","description":"Materiële vaste activa: Woonruimten"},
-			{"code":"A123","description":"Materiële vaste activa: Bedrijfsgebouwen"},
-			{"code":"A124","description":"Materiële vaste activa: Grond-, weg- en waterbouwkundige werken"},
-			{"code":"A125","description":"Materiële vaste activa: Vervoermiddelen"},
-			{"code":"A126","description":"Materiële vaste activa: Machines, apparaten en installaties"},
-			{"code":"A129","description":"Materiële vaste activa: Overig"},
-			{"code":"A1311","description":"Financiële vaste activa: Kapitaalverstrekking aan deelnemingen"},
-			{"code":"A1312","description":"Financiële vaste activa: Kapitaalverstrekking aan gemeenschappelijke regelingen"},
-			{"code":"A1313","description":"Financiële vaste activa: Kapitaalverstrekking aan overige verbonden partijen"},
-			{"code":"A1321","description":"Financiële vaste activa: Leningen aan woningbouwcorporaties"},
-			{"code":"A1322","description":"Financiële vaste activa: Leningen aan deelnemingen"},
-			{"code":"A1323","description":"Financiële vaste activa: Leningen aan overige verbonden partijen"},
-			{"code":"A1331a","description":"Financiële vaste activa: Leningen aan openbare lichamen (art. 1a Wet Fido)"},
-			{"code":"A1331b","description":"Financiële vaste activa: Overige langlopende leningen"},
-			{"code":"A1332a","description":"Financiële vaste activa: Uitzettingen in ’s Rijks schatkist met een looptijd = 1 jaar"},
-			{"code":"A1332b","description":"Financiële vaste activa: Uitzettingen in de vorm van Nederlands schuldpapier met een looptijd = 1 jaar"},
-			{"code":"A1332c","description":"Financiële vaste activa: Overige uitzettingen met een looptijd = 1 jaar"}]},
+			{"code":"A111","description":"Immateri?le vaste activa: Kosten verbonden aan sluiten geldlening en saldo agio/disagio"},
+			{"code":"A112","description":"Immateri?le vaste activa: Kosten onderzoek en ontwikkeling voor een bepaald actief"},
+			{"code":"A113","description":"Immateri?le vaste activa: Bijdragen aan activa in eigendom van derden"},
+			{"code":"A121","description":"Materi?le vaste activa: Gronden en terreinen"},
+			{"code":"A122","description":"Materi?le vaste activa: Woonruimten"},
+			{"code":"A123","description":"Materi?le vaste activa: Bedrijfsgebouwen"},
+			{"code":"A124","description":"Materi?le vaste activa: Grond-, weg- en waterbouwkundige werken"},
+			{"code":"A125","description":"Materi?le vaste activa: Vervoermiddelen"},
+			{"code":"A126","description":"Materi?le vaste activa: Machines, apparaten en installaties"},
+			{"code":"A129","description":"Materi?le vaste activa: Overig"},
+			{"code":"A1311","description":"Financi?le vaste activa: Kapitaalverstrekking aan deelnemingen"},
+			{"code":"A1312","description":"Financi?le vaste activa: Kapitaalverstrekking aan gemeenschappelijke regelingen"},
+			{"code":"A1313","description":"Financi?le vaste activa: Kapitaalverstrekking aan overige verbonden partijen"},
+			{"code":"A1321","description":"Financi?le vaste activa: Leningen aan woningbouwcorporaties"},
+			{"code":"A1322","description":"Financi?le vaste activa: Leningen aan deelnemingen"},
+			{"code":"A1323","description":"Financi?le vaste activa: Leningen aan overige verbonden partijen"},
+			{"code":"A1331a","description":"Financi?le vaste activa: Leningen aan openbare lichamen (art. 1a Wet Fido)"},
+			{"code":"A1331b","description":"Financi?le vaste activa: Overige langlopende leningen"},
+			{"code":"A1332a","description":"Financi?le vaste activa: Uitzettingen in ?s Rijks schatkist met een looptijd = 1 jaar"},
+			{"code":"A1332b","description":"Financi?le vaste activa: Uitzettingen in de vorm van Nederlands schuldpapier met een looptijd = 1 jaar"},
+			{"code":"A1332c","description":"Financi?le vaste activa: Overige uitzettingen met een looptijd = 1 jaar"}]},
 		{"code":"A2","description":"Vlottende Activa","subcodes":[
 			{"code":"A212","description":"Voorraden: Overige grond- en hulpstoffen"},
 			{"code":"A213","description":"Voorraden: Onderhanden werk (incl. bouwgronden in exploitatie)"},
@@ -100,9 +100,9 @@
 			{"code":"A222a","description":"Uitzettingen: Verstrekte kasgeldleningen aan openbare lichamen (art. 1a Wet Fido)"},
 			{"code":"A222b","description":"Uitzettingen: Overige verstrekte kasgeldleningen"},
 			{"code":"A223a","description":"Uitzettingen: Rekening courant verhouding met het Rijk"},
-			{"code":"A223b","description":"Uitzettingen: Rekening courant verhoudingen overige niet-financiële instellingen"},
+			{"code":"A223b","description":"Uitzettingen: Rekening courant verhoudingen overige niet-financi?le instellingen"},
 			{"code":"A224","description":"Uitzettingen: Overige vorderingen"},
-			{"code":"A225a","description":"Uitzettingen: Uitzettingen in ’s Rijks schatkist met een looptijd < 1 jaar"},
+			{"code":"A225a","description":"Uitzettingen: Uitzettingen in ?s Rijks schatkist met een looptijd < 1 jaar"},
 			{"code":"A225b","description":"Uitzettingen: Uitzettingen in de vorm van Nederlands schuldpapier met een looptijd < 1 jaar"},
 			{"code":"A225c","description":"Uitzettingen: Overige uitzettingen met een looptijd < 1 jaar"},
 			{"code":"A23","description":"Liquide middelen (kas- en banksaldi)"},
@@ -117,7 +117,7 @@
 			{"code":"P12","description":"Voorzieningen"},
 			{"code":"P131","description":"Vaste schuld: Obligatieleningen"},
 			{"code":"P132","description":"Vaste schuld: Onderhandse leningen van binnenlandse pensioenfondsen en verzekeraars"},
-			{"code":"P133","description":"Vaste schuld: Onderhandse leningen van binnenlandse banken en overige financiële instellingen"},
+			{"code":"P133","description":"Vaste schuld: Onderhandse leningen van binnenlandse banken en overige financi?le instellingen"},
 			{"code":"P134","description":"Vaste schuld: Onderhandse leningen van binnenlandse bedrijven"},
 			{"code":"P135a","description":"Vaste schuld: Onderhandse leningen van openbare lichamen (art. 1a Wet Fido)"},
 			{"code":"P135b","description":"Vaste schuld: Onderhandse leningen van overige binnenlandse sectoren"},
@@ -125,7 +125,7 @@
 			{"code":"P137","description":"Vaste schuld: Door derden belegde gelden"},
 			{"code":"P138","description":"Vaste schuld: Waarborgsommen"},
 			{"code":"P139","description":"Renteswaps en derivaten"},
-			{"code":"P140","description":"Overige leningen met een rentetypische looptijd van één jaar of langer"}]},
+			{"code":"P140","description":"Overige leningen met een rentetypische looptijd van ??n jaar of langer"}]},
 		{"code":"P2","description":"Vlottende Passiva","subcodes":[
 			{"code":"P211a","description":"Vlottende schuld: Kasgeldleningen van openbare lichamen (art. 1a Wet Fido)"},
 			{"code":"P211b","description":"Vlottende schuld: Overige kasgeldleningen"},
@@ -177,13 +177,13 @@
 			{"code":"5.1","description":"Rente"}]
 		},
 		{"code":"Financiele Rekening","subcodes":[
-			{"code":"6.1","description":"Financiële transacties"}]
+			{"code":"6.1","description":"Financi?le transacties"}]
 		},
 		{"code":"Interne Verrekeningen","subcodes":[
 			{"code":"7.1","description":"Mutatie reserves"},
 			{"code":"7.2","description":"Mutatie voorzieningen"},
 			{"code":"7.3","description":"Afschrijvingen"},
-			{"code":"7.4","description":"Toegerekende reële en bespaarde rente"},
+			{"code":"7.4","description":"Toegerekende re?le en bespaarde rente"},
 			{"code":"7.5","description":"Overige verrekeningen"}]
 		}
 	]
@@ -224,45 +224,45 @@
 			{"code":"5.2","description":"Dividenden en winsten"}]
 		},
 		{"code":"Financiele Rekening","subcodes":[		
-			{"code":"6.1","description":"Financiële transacties"}]
+			{"code":"6.1","description":"Financi?le transacties"}]
 		},
 		{"code":"Interne Verrekeningen","subcodes":[
 			{"code":"7.1","description":"Mutatie reserves"},
 			{"code":"7.2","description":"Mutatie voorzieningen"},
 			{"code":"7.3","description":"Afschrijvingen"},
-			{"code":"7.4","description":"Toegerekende reële en bespaarde rente"},
+			{"code":"7.4","description":"Toegerekende re?le en bespaarde rente"},
 			{"code":"7.5","description":"Overige verrekeningen"}]
 		}
 		]
   	},
 	"dimensies": {
       "codelijst": [
-        {"rekeningsoort": "lasten","description": "dimensies voor rekeningsoort lasten","subcodes": [
-            {"sleutenaam":"categorie","codelijst":"categorie_lasten","description":"kolomkoppen lasten tabel"},
-            {"sleutenaam":"taakveld","codelijst":"taakveld","description":"rijkoppen lasten tabel"}
+        {"code":"dimensies_lasten","rekeningsoort": "lasten","description": "dimensies voor rekeningsoort lasten","subcodes": [
+            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_lasten","description":"kolomkoppen lasten tabel"},
+            {"code":"dimensie_2","sleutelnaam":"taakveld","codelijst":"taakveld","description":"rijkoppen lasten tabel"}
               ]
             },
-        {"rekeningsoort": "baten","description": "dimensies voor rekeningsoort baten","subcodes": [
-            {"sleutenaam":"categorie","codelijst":"categorie_baten","description":"kolomkoppen baten tabel"},
-            {"sleutenaam":"taakveld","codelijst":"taakveld","description":"rijkoppen baten tabel"}
+        {"code":"dimensies_baten","rekeningsoort": "baten","description": "dimensies voor rekeningsoort baten","subcodes": [
+            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_baten","description":"kolomkoppen baten tabel"},
+            {"code":"dimensie_2","sleutelnaam":"taakveld","codelijst":"taakveld","description":"rijkoppen baten tabel"}
               ]
             },  
             
-         {"rekeningsoort": "balans_lasten","description": "dimensies voor rekeningsoort balans_lasten","subcodes": [
-            {"sleutenaam":"categorie","codelijst":"categorie_lasten","description":"kolomkoppen balans_lasten tabel"},
-            {"sleutenaam":"balanscode","codelijst":"balanscode","description":"rijkoppen balans_lasten tabel"}
+         {"code":"dimensies_balans_lasten","rekeningsoort": "balans_lasten","description": "dimensies voor rekeningsoort balans_lasten","subcodes": [
+            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_lasten","description":"kolomkoppen balans_lasten tabel"},
+            {"code":"dimensie_2","sleutelnaam":"balanscode","codelijst":"balanscode","description":"rijkoppen balans_lasten tabel"}
               ]
             },     
             
-         {"rekeningsoort": "balans_baten","description": "dimensies voor rekeningsoort balans_baten","subcodes": [
-            {"sleutenaam":"categorie","codelijst":"categorie_baten","description":"kolomkoppen balans_baten tabel"},
-            {"sleutenaam":"balanscode","codelijst":"balanscode","description":"rijkoppen balans_baten tabel"}
+         {"code":"dimensies_balans_baten","rekeningsoort": "balans_baten","description": "dimensies voor rekeningsoort balans_baten","subcodes": [
+            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_baten","description":"kolomkoppen balans_baten tabel"},
+            {"code":"dimensie_2","sleutelnaam":"balanscode","codelijst":"balanscode","description":"rijkoppen balans_baten tabel"}
               ]
             },     
             
-         {"rekeningsoort": "balans_standen","description": "dimensies voor rekeningsoort balans_standen","subcodes": [
-            {"sleutenaam":"balansdatum","codelijst":"balansdatum","description":"kolomkoppen balans_standen tabel"},
-            {"sleutenaam":"balanscode","codelijst":"balanscode","description":"rijkoppen balans_standen tabel"}
+         {"code":"dimensies_balans_standen","rekeningsoort": "balans_standen","description": "dimensies voor rekeningsoort balans_standen","subcodes": [
+            {"code":"dimensie_1","sleutelnaam":"balansdatum","codelijst":"balansdatum","description":"kolomkoppen balans_standen tabel"},
+            {"code":"dimensie_2","sleutelnaam":"balanscode","codelijst":"balanscode","description":"rijkoppen balans_standen tabel"}
               ]
             }
           ]
@@ -270,75 +270,75 @@
     },
 "controlelijst": {
     "controles": [
-      {"controle-id": 1,"description": "Controle 01", "definitie": [
+      {"controle-id": 1,"omschrijving": "Controle 01", "definitie": [
       
           {"volgnr": 1, "variabele": "Totaal_lasten_taakv_LR", "expressie": 
           	{"rekeningsoort": "lasten", "taakveld": "taakveld", "categorie": "Lopende Rekening"},
-          		"description": "totaal lasten taakveld cat 1 tm 5(lopende rekening)"},
+          		"omschrijving": "totaal lasten taakveld cat 1 tm 5(lopende rekening)"},
           		
           {"volgnr": 2, "variabele": "Totaal_lasten_balans_LR","expressie": 
           	{"rekeningsoort": "balans_lasten", "balanscode": "balanscode","categorie": "Lopende Rekening"},
-          		"description": "totaal lasten balansmutaties cat 1 tm 5(lopende rekening)"},
+          		"omschrijving": "totaal lasten balansmutaties cat 1 tm 5(lopende rekening)"},
           		
           {"volgnr": 3, "variabele": "Totaal_lasten_LR","expressie": 
           	{"formule": "Totaal_lasten_LR + Totaal_lasten_balans_LR"},
-          		"description": "a. totaal lasten cat 1 tm 5(lopende rekening)"},
+          		"omschrijving": "a. totaal lasten cat 1 tm 5(lopende rekening)"},
       
           {"volgnr": 4,"variabele": "Totaal_baten_taakv_LR","expressie": 
           	{"rekeningsoort": "baten","taakveld": "taakveld", "categorie": "Lopende Rekening"},
-          		"description": "totaal baten taakveld cat 1 tm 5(lopende rekening)"},
+          		"omschrijving": "totaal baten taakveld cat 1 tm 5(lopende rekening)"},
           		
           {"volgnr": 5, "variabele": "Totaal_baten_balans_LR","expressie": 
           	{"rekeningsoort": "balans_baten","balanscode": "balanscode","categorie": "Lopende Rekening"},
-          		"description": "totaal baten balansmutaties cat 1 tm 5(lopende rekening)"},
+          		"omschrijving": "totaal baten balansmutaties cat 1 tm 5(lopende rekening)"},
           		
           {"volgnr": 6,"variabele": "Totaal_baten_LR","expressie": 
           	{"formule": "Totaal_baten_taakv_LR + Totaal_baten_balans_LR"},
-          		"description": "totaal baten cat 1 tm 5(lopende rekening)"},
+          		"omschrijving": "totaal baten cat 1 tm 5(lopende rekening)"},
           		
           {"volgnr": 7,"variabele": "Emu_saldo_LR","expressie": 
           	{"formule": "Totaal_baten_LR - Totaal_lasten_LR"},
-          		"description": "b. EMU saldo niet-financiële rekening(lopende rekening)"},
+          		"omschrijving": "b. EMU saldo niet-financi?le rekening(lopende rekening)"},
           		
           {"volgnr": 8,"variabele": "Totaal_lasten_taakv_FR","expressie": 
-          	{"rekeningsoort": "lasten","taakveld": "taakveld","categorie": "Financiële Rekening"},
-          		"description": "lasten taakveld cat 6.1(financiele rekening)"},
+          	{"rekeningsoort": "lasten","taakveld": "taakveld","categorie": "Financi?le Rekening"},
+          		"omschrijving": "lasten taakveld cat 6.1(financiele rekening)"},
           		
           {"volgnr": 9,"variabele": "Totaal_lasten_balans_FR","expressie": 
-          	{"rekeningsoort": "balans_lasten","balanscode": "balanscode","categorie": "Financiële Rekening"},
-          		"description": "lasten balansmutaties cat 6.1"},
+          	{"rekeningsoort": "balans_lasten","balanscode": "balanscode","categorie": "Financi?le Rekening"},
+          		"omschrijving": "lasten balansmutaties cat 6.1"},
           		
           {"volgnr": 10,"variabele": "Totaal_lasten_FR","expressie": 
           	{"formule": "Totaal_lasten_taakv_FR + Totaal_lasten_balans_FR"},
-          		"description": "totaal lasten cat 6.1(financiele rekening)"},
+          		"omschrijving": "totaal lasten cat 6.1(financiele rekening)"},
           		
           {"volgnr": 11,"variabele": "Totaal_baten_taakv_FR", "expressie": 
-          	{"rekeningsoort": "baten", "taakveld": "taakveld", "categorie":"Financiële Rekening"},
-			"description": "baten taakveld cat 6.1(financiele rekening)"},
+          	{"rekeningsoort": "baten", "taakveld": "taakveld", "categorie":"Financi?le Rekening"},
+			"omschrijving": "baten taakveld cat 6.1(financiele rekening)"},
 			
           {"volgnr": 12,"variabele": "Totaal_baten_balans_FR","expressie": 
-          	{"rekeningsoort": "balans_baten","balanscode": "balanscode", "categorie": "Financiële Rekening"},
-			"description": "baten balansmutaties cat 6.1(financiele rekening)"},
+          	{"rekeningsoort": "balans_baten","balanscode": "balanscode", "categorie": "Financi?le Rekening"},
+			"omschrijving": "baten balansmutaties cat 6.1(financiele rekening)"},
           
           {"volgnr": 13,"variabele": "Totaal_baten_FR","expressie": 
           	{"formule": "Totaal_baten_taakv_FR - Totaal_baten_balans_FR"},
-			"description": "totaal baten cat 6.1(financiele rekening)"},
+			"omschrijving": "totaal baten cat 6.1(financiele rekening)"},
 			
           {"volgnr": 14,"variabele": "Emu_saldo_FR","expressie": 
           	{"formule": "Totaal_baten_FR - Totaal_lasten_FR"},
-			"description": "c. EMU-saldo berekend uit de financiële rekening (cat 6.1)(financiele rekening)"},
+			"omschrijving": "c. EMU-saldo berekend uit de financi?le rekening (cat 6.1)(financiele rekening)"},
           
           {"volgnr": 15, "variabele": "Absoluut_verschil","expressie": 
           	{"formule": "ABS(Emu_saldo_LR - Emu_saldo_FR)"},
-	            "description": "d=|b-c| Absolute afwijking"},
+	            "omschrijving": "d=|b-c| Absolute afwijking"},
           
           {"volgnr": 16,"variabele": "relatief_verschil","expressie": 
           	{"formule": "(Absoluut_verschil / Totaal_lasten_LR)"},
-			"description": "e=d/a Afwijking in procenten"},
+			"omschrijving": "e=d/a Afwijking in procenten"},
 			
           {"volgnr": 17,"variabele": "Waardering controle 01","expressie": 
           	{"formule": "(relatief_verschil)", "check": "relatief_verschil <= 0.01"},
-			"description": "Resultaat controle 01"}
+			"omschrijving": "Resultaat controle 01"}
         ]
       }
     ]
