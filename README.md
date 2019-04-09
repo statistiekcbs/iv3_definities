@@ -14,7 +14,7 @@ BalansBaten en BalansStanden) logischer en overzichtelijker.
 In januari 2019 zijn 2 wijzigingen in de vormgeving van een sjabloon doorgevoerd (die van Gemeente_2017) Hierin is de 
 splitsing in 5 afdelingen gerealiseerd en is binnen het sjabloon een opsomming van Grijze Cellen opgenomen.
 
-In een later stadium zullen ook de controles binnen het sjabloon worden opgenomen, zodat elk sjabloon uiteindelijk het
-totaal aan informatie zal bevatten die nu is terug te vinden in de Excel-sjablonen.
+Inmiddels is ook de eerste controle binnen de sjablonen opgenomen, zodat elk sjabloon uiteindelijk het totaal aan informatie bevat die nu is terug te vinden in de Excel-sjablonen.
+Voorlopig zullen niet alle controles in de bestanden worden opgenomen, vanwege de arbeidsintensiteit hiervan.
 
-inmiddels is ook een Schema toegevoegd: de controles zijn gesplitst in 2 bestanden een schema, voor de 'grammatica' van alle leveringen en een definitie bestand voor de jaarlijks in te stellen controles en codelijsten.
+inmiddels is ook een JSON-Schema toegevoegd: de controles zijn gesplitst in 2 bestanden een schema, voor de 'grammatica' van alle leveringen en een definitie bestand voor de jaarlijks in te stellen controles en codelijsten.
