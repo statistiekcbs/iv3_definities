@@ -275,7 +275,7 @@
     "controles": [
       {"controle-id": 1,"omschrijving": "Controle 01", "definitie": [
       
-          {"volgnr": 1, "variabele": "Totaal_lasten_taakv_LR", "expressie":
+          {"volgnr": 1, "variabele": "Totaal_lasten_taakv_LR", "expressie": 
           	{"rekeningsoort": "lasten", "taakveld": "Totaal taakveld", "categorie": "Lopende Rekening"},
           		"omschrijving": "totaal lasten taakveld cat 1 tm 5(lopende rekening)"},
           		
@@ -283,8 +283,8 @@
           	{"rekeningsoort": "balans_lasten", "balanscode": "Totaal balanscode","categorie": "Lopende Rekening"},
           		"omschrijving": "totaal lasten balansmutaties cat 1 tm 5(lopende rekening)"},
           		
-          {"volgnr": 3, "variabele": "Totaal_lasten_LR","expressie":
-          	{"formule": "Totaal_lasten_taakv_LR + Totaal_lasten_balans_LR"},
+          {"volgnr": 3, "variabele": "Totaal_lasten_LR","expressie": 
+          	{"formule": "Totaal_lasten_LR + Totaal_lasten_balans_LR"},
           		"omschrijving": "a. totaal lasten cat 1 tm 5(lopende rekening)"},
       
           {"volgnr": 4,"variabele": "Totaal_baten_taakv_LR","expressie": 
@@ -306,7 +306,7 @@
           {"volgnr": 8,"variabele": "Totaal_lasten_taakv_FR","expressie": 
           	{"rekeningsoort": "lasten","taakveld": "Totaal taakveld","categorie": "Financiele Rekening"},
           		"omschrijving": "lasten taakveld cat 6.1(financiele rekening)"},
-
+          		
           {"volgnr": 9,"variabele": "Totaal_lasten_balans_FR","expressie": 
           	{"rekeningsoort": "balans_lasten","balanscode": "Totaal balanscode","categorie": "Financiele Rekening"},
           		"omschrijving": "lasten balansmutaties cat 6.1"},
@@ -336,7 +336,7 @@
 	            "omschrijving": "d=|b-c| Absolute afwijking"},
           
           {"volgnr": 16,"variabele": "relatief_verschil","expressie": 
-          	{"formule": "Absoluut_verschil / Emu_saldo_LR"},
+          	{"formule": "(Absoluut_verschil / Totaal_lasten_LR)"},
 			"omschrijving": "e=d/a Afwijking in procenten"},
 			
           {"volgnr": 17,"variabele": "Waardering controle 01","expressie": 
