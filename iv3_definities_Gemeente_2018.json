@@ -324,7 +324,7 @@
 			"omschrijving": "baten balansmutaties cat 6.1(financiele rekening)"},
           
           {"volgnr": 13,"variabele": "Totaal_baten_FR","expressie": 
-          	{"formule": "Totaal_baten_taakv_FR - Totaal_baten_balans_FR"},
+          	{"formule": "Totaal_baten_taakv_FR + Totaal_baten_balans_FR"},
 			"omschrijving": "totaal baten cat 6.1(financiele rekening)"},
 			
           {"volgnr": 14,"variabele": "Emu_saldo_FR","expressie": 
