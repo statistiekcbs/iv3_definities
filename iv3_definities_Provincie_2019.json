@@ -7,262 +7,262 @@
 "codelijsten": {
     "taakveld": {
       "codelijst": [
-		{"code":"0.","description":"ALGEMENE DEKKINGSMIDDELEN", "subcodes":[
-			{"code":"0.1","description":"Uitkering provinciefonds"},
-			{"code":"0.2","description":"Opbrengst provinciale belastingen"},
-			{"code":"0.3","description":"Geldleningen en uitzettingen"},
-			{"code":"0.4","description":"Deelnemingen"},
-			{"code":"0.5","description":"Algemene dekkingsmiddelen, overige baten en lasten"},
-			{"code":"0.6","description":"Overhead"},
-			{"code":"0.7","description":"Vennootschapsbelasting"},
-			{"code":"0.8","description":"Mutaties reserves"},
-			{"code":"0.9","description":"Resultaat"}]},
-		{"code":"1.","description":"BESTUUR","subcodes":[
-			{"code":"1.1","description":"Provinciale Staten"},
-			{"code":"1.2","description":"Gedeputeerde Staten"},
-			{"code":"1.3","description":"Kabinetszaken"},
-			{"code":"1.4","description":"Bestuurlijke organisatie"},
-			{"code":"1.5","description":"Interbestuurlijk toezicht op de regio"},
-			{"code":"1.6","description":"Openbare orde en veiligheid"},
-			{"code":"1.9","description":"Bestuur, overige baten en lasten"}]},
-		{"code":"2.","description":"VERKEER EN VERVOER","subcodes":[
-			{"code":"2.1","description":"Landwegen"},
-			{"code":"2.2","description":"Waterwegen"},
-			{"code":"2.3","description":"Openbaar vervoer"},
-			{"code":"2.9","description":"Verkeer en vervoer, overige baten en lasten"}]},
-		{"code":"3.","description":"WATER","subcodes":[
-			{"code":"3.1","description":"Waterkeringen"},
-			{"code":"3.2","description":"Kwantiteit oppervlaktewater"},
-			{"code":"3.3","description":"Kwantiteit grondwater"},
-			{"code":"3.4","description":"Kwaliteit oppervlaktewater"},
-			{"code":"3.5","description":"Kwaliteit grondwater"},
-			{"code":"3.9","description":"Water, overige baten en lasten"}]},
-		{"code":"4.","description":"MILIEU","subcodes":[
-			{"code":"4.1","description":"Bodembescherming"},
-			{"code":"4.2","description":"Luchtverontreiniging"},
-			{"code":"4.3","description":"Geluidhinder"},
-			{"code":"4.4","description":"Vergunningverlening en handhaving"},
-			{"code":"4.5","description":"Ontgronding"},
-			{"code":"4.6","description":"Duurzaamheid"},
-			{"code":"4.9","description":"Milieu, overige baten en lasten"}]},
-		{"code":"5.","description":"NATUUR","subcodes":[
-			{"code":"5.1","description":"Natuurontwikkeling"},
-			{"code":"5.2","description":"Beheer natuurgebieden"},
-			{"code":"5.3","description":"Beheer flora en fauna"},
-			{"code":"5.9","description":"Natuur, overige baten en lasten"}]},
-		{"code":"6.","description":"REGIONALE ECONOMIE","subcodes":[
-			{"code":"6.1","description":"Agrarische aangelegenheden"},
-			{"code":"6.2","description":"Logistiek"},
-			{"code":"6.3","description":"Kennis en innovatie"},
-			{"code":"6.4","description":"Recreatie en toerisme"},
-			{"code":"6.9","description":"Regionale economie, overige baten en lasten"}]},
-		{"code":"7.","description":"CULTUUR EN MAATSCHAPPIJ","subcodes":[
-			{"code":"7.1","description":"Cultuur"},
-			{"code":"7.2","description":"Maatschappij"},
-			{"code":"7.9","description":"Cultuur en maatschappij, overige baten en lasten"}]},
-		{"code":"8.","description":"RUIMTE","subcodes":[
-			{"code":"8.1","description":"Ruimtelijke ordening"},
-			{"code":"8.2","description":"Volkshuisvesting"},
-			{"code":"8.3","description":"Stedelijke vernieuwing"},
-			{"code":"8.9","description":"Ruimte, overige baten en lasten"}]}
+		{"code":"0.","omschrijving":"ALGEMENE DEKKINGSMIDDELEN", "subcodes":[
+			{"code":"0.1","omschrijving":"Uitkering provinciefonds"},
+			{"code":"0.2","omschrijving":"Opbrengst provinciale belastingen"},
+			{"code":"0.3","omschrijving":"Geldleningen en uitzettingen"},
+			{"code":"0.4","omschrijving":"Deelnemingen"},
+			{"code":"0.5","omschrijving":"Algemene dekkingsmiddelen, overige baten en lasten"},
+			{"code":"0.6","omschrijving":"Overhead"},
+			{"code":"0.7","omschrijving":"Vennootschapsbelasting"},
+			{"code":"0.8","omschrijving":"Mutaties reserves"},
+			{"code":"0.9","omschrijving":"Resultaat"}]},
+		{"code":"1.","omschrijving":"BESTUUR","subcodes":[
+			{"code":"1.1","omschrijving":"Provinciale Staten"},
+			{"code":"1.2","omschrijving":"Gedeputeerde Staten"},
+			{"code":"1.3","omschrijving":"Kabinetszaken"},
+			{"code":"1.4","omschrijving":"Bestuurlijke organisatie"},
+			{"code":"1.5","omschrijving":"Interbestuurlijk toezicht op de regio"},
+			{"code":"1.6","omschrijving":"Openbare orde en veiligheid"},
+			{"code":"1.9","omschrijving":"Bestuur, overige baten en lasten"}]},
+		{"code":"2.","omschrijving":"VERKEER EN VERVOER","subcodes":[
+			{"code":"2.1","omschrijving":"Landwegen"},
+			{"code":"2.2","omschrijving":"Waterwegen"},
+			{"code":"2.3","omschrijving":"Openbaar vervoer"},
+			{"code":"2.9","omschrijving":"Verkeer en vervoer, overige baten en lasten"}]},
+		{"code":"3.","omschrijving":"WATER","subcodes":[
+			{"code":"3.1","omschrijving":"Waterkeringen"},
+			{"code":"3.2","omschrijving":"Kwantiteit oppervlaktewater"},
+			{"code":"3.3","omschrijving":"Kwantiteit grondwater"},
+			{"code":"3.4","omschrijving":"Kwaliteit oppervlaktewater"},
+			{"code":"3.5","omschrijving":"Kwaliteit grondwater"},
+			{"code":"3.9","omschrijving":"Water, overige baten en lasten"}]},
+		{"code":"4.","omschrijving":"MILIEU","subcodes":[
+			{"code":"4.1","omschrijving":"Bodembescherming"},
+			{"code":"4.2","omschrijving":"Luchtverontreiniging"},
+			{"code":"4.3","omschrijving":"Geluidhinder"},
+			{"code":"4.4","omschrijving":"Vergunningverlening en handhaving"},
+			{"code":"4.5","omschrijving":"Ontgronding"},
+			{"code":"4.6","omschrijving":"Duurzaamheid"},
+			{"code":"4.9","omschrijving":"Milieu, overige baten en lasten"}]},
+		{"code":"5.","omschrijving":"NATUUR","subcodes":[
+			{"code":"5.1","omschrijving":"Natuurontwikkeling"},
+			{"code":"5.2","omschrijving":"Beheer natuurgebieden"},
+			{"code":"5.3","omschrijving":"Beheer flora en fauna"},
+			{"code":"5.9","omschrijving":"Natuur, overige baten en lasten"}]},
+		{"code":"6.","omschrijving":"REGIONALE ECONOMIE","subcodes":[
+			{"code":"6.1","omschrijving":"Agrarische aangelegenheden"},
+			{"code":"6.2","omschrijving":"Logistiek"},
+			{"code":"6.3","omschrijving":"Kennis en innovatie"},
+			{"code":"6.4","omschrijving":"Recreatie en toerisme"},
+			{"code":"6.9","omschrijving":"Regionale economie, overige baten en lasten"}]},
+		{"code":"7.","omschrijving":"CULTUUR EN MAATSCHAPPIJ","subcodes":[
+			{"code":"7.1","omschrijving":"Cultuur"},
+			{"code":"7.2","omschrijving":"Maatschappij"},
+			{"code":"7.9","omschrijving":"Cultuur en maatschappij, overige baten en lasten"}]},
+		{"code":"8.","omschrijving":"RUIMTE","subcodes":[
+			{"code":"8.1","omschrijving":"Ruimtelijke ordening"},
+			{"code":"8.2","omschrijving":"Volkshuisvesting"},
+			{"code":"8.3","omschrijving":"Stedelijke vernieuwing"},
+			{"code":"8.9","omschrijving":"Ruimte, overige baten en lasten"}]}
 	]
    },
    	"balanscode":{
       "codelijst": [
-		{"code":"A1","description":"Vaste Activa","subcodes":[
-			{"code":"A111","description":"Immateri?le vaste activa: Kosten verbonden aan sluiten geldlening en saldo agio/disagio"},
-			{"code":"A112","description":"Immateri?le vaste activa: Kosten onderzoek en ontwikkeling voor een bepaald actief"},
-			{"code":"A113","description":"Immateri?le vaste activa: Bijdragen aan activa in eigendom van derden"},
-			{"code":"A121","description":"Materi?le vaste activa: Gronden en terreinen"},
-			{"code":"A122","description":"Materi?le vaste activa: Woonruimten"},
-			{"code":"A123","description":"Materi?le vaste activa: Bedrijfsgebouwen"},
-			{"code":"A124","description":"Materi?le vaste activa: Grond-, weg- en waterbouwkundige werken"},
-			{"code":"A125","description":"Materi?le vaste activa: Vervoermiddelen"},
-			{"code":"A126","description":"Materi?le vaste activa: Machines, apparaten en installaties"},
-			{"code":"A129","description":"Materi?le vaste activa: Overig"},
-			{"code":"A1311","description":"Financi?le vaste activa: Kapitaalverstrekking aan deelnemingen"},
-			{"code":"A1312","description":"Financi?le vaste activa: Kapitaalverstrekking aan gemeenschappelijke regelingen"},
-			{"code":"A1313","description":"Financi?le vaste activa: Kapitaalverstrekking aan overige verbonden partijen"},
-			{"code":"A1321","description":"Financi?le vaste activa: Leningen aan woningbouwcorporaties"},
-			{"code":"A1322","description":"Financi?le vaste activa: Leningen aan deelnemingen"},
-			{"code":"A1323","description":"Financi?le vaste activa: Leningen aan overige verbonden partijen"},
-			{"code":"A1331a","description":"Financi?le vaste activa: Leningen aan openbare lichamen (art. 1a Wet Fido)"},
-			{"code":"A1331b","description":"Financi?le vaste activa: Overige langlopende leningen"},
-			{"code":"A1332a","description":"Financi?le vaste activa: Uitzettingen in ?s Rijks schatkist met een looptijd = 1 jaar"},
-			{"code":"A1332b","description":"Financi?le vaste activa: Uitzettingen in de vorm van Nederlands schuldpapier met een looptijd = 1 jaar"},
-			{"code":"A1332c","description":"Financi?le vaste activa: Overige uitzettingen met een looptijd = 1 jaar"}]},
-		{"code":"A2","description":"Vlottende Activa","subcodes":[
-			{"code":"A212","description":"Voorraden: Overige grond- en hulpstoffen"},
-			{"code":"A213","description":"Voorraden: Onderhanden werk (incl. bouwgronden in exploitatie)"},
-			{"code":"A214","description":"Voorraden: Gereed product en handelsgoederen"},
-			{"code":"A215","description":"Voorraden: Vooruitbetalingen"},
-			{"code":"A221","description":"Uitzettingen: Vorderingen op openbare lichamen"},
-			{"code":"A222a","description":"Uitzettingen: Verstrekte kasgeldleningen aan openbare lichamen (art. 1a Wet Fido)"},
-			{"code":"A222b","description":"Uitzettingen: Overige verstrekte kasgeldleningen"},
-			{"code":"A223a","description":"Uitzettingen: Rekening courant verhouding met het Rijk"},
-			{"code":"A223b","description":"Uitzettingen: Rekening courant verhoudingen overige niet-financi?le instellingen"},
-			{"code":"A224","description":"Uitzettingen: Overige vorderingen"},
-			{"code":"A225a","description":"Uitzettingen: Uitzettingen in ?s Rijks schatkist met een looptijd < 1 jaar"},
-			{"code":"A225b","description":"Uitzettingen: Uitzettingen in de vorm van Nederlands schuldpapier met een looptijd < 1 jaar"},
-			{"code":"A225c","description":"Uitzettingen: Overige uitzettingen met een looptijd < 1 jaar"},
-			{"code":"A23","description":"Liquide middelen (kas- en banksaldi)"},
-			{"code":"A29a","description":"Overlopende activa: Nog te ontvangen bijdragen van de EU"},
-			{"code":"A29b","description":"Overlopende activa: Nog te ontvangen bijdragen van het Rijk"},
-			{"code":"A29c","description":"Overlopende activa: Nog te ontvangen bijdragen van overige overheid"},
-			{"code":"A29d","description":"Overlopende activa: Overige overlopende activa"}]},
-		{"code":"P1","description":"Vaste Passiva","subcodes":[
-			{"code":"P111","description":"Eigen vermogen: Algemene reserve"},
-			{"code":"P112","description":"Eigen vermogen: Bestemmingsreserves"},
-			{"code":"P114","description":"Eigen vermogen: Saldo van rekening"},
-			{"code":"P12","description":"Voorzieningen"},
-			{"code":"P131","description":"Vaste schuld: Obligatieleningen"},
-			{"code":"P132","description":"Vaste schuld: Onderhandse leningen van binnenlandse pensioenfondsen en verzekeraars"},
-			{"code":"P133","description":"Vaste schuld: Onderhandse leningen van binnenlandse banken en overige financi?le instellingen"},
-			{"code":"P134","description":"Vaste schuld: Onderhandse leningen van binnenlandse bedrijven"},
-			{"code":"P135a","description":"Vaste schuld: Onderhandse leningen van openbare lichamen (art. 1a Wet Fido)"},
-			{"code":"P135b","description":"Vaste schuld: Onderhandse leningen van overige binnenlandse sectoren"},
-			{"code":"P136","description":"Vaste schuld: Onderhandse leningen van buitenlandse instellingen"},
-			{"code":"P137","description":"Vaste schuld: Door derden belegde gelden"},
-			{"code":"P138","description":"Vaste schuld: Waarborgsommen"},
-			{"code":"P139","description":"Renteswaps en derivaten"},
-			{"code":"P140","description":"Overige leningen met een rentetypische looptijd van ??n jaar of langer"}]},
-		{"code":"P2","description":"Vlottende Passiva","subcodes":[
-			{"code":"P211a","description":"Vlottende schuld: Kasgeldleningen van openbare lichamen (art. 1a Wet Fido)"},
-			{"code":"P211b","description":"Vlottende schuld: Overige kasgeldleningen"},
-			{"code":"P212","description":"Vlottende schuld: Banksaldi"},
-			{"code":"P213","description":"Vlottende schuld: Overige vlottende schulden"},
-			{"code":"P29a","description":"Overlopende passiva: Vooruit ontvangen bijdragen van de EU"},
-			{"code":"P29b","description":"Overlopende passiva: Vooruit ontvangen bijdragen van het Rijk"},
-			{"code":"P29c","description":"Overlopende passiva: Vooruit ontvangen bijdragen van overige overheid"},
-			{"code":"P29d","description":"Overlopende passiva: Overige overlopende passiva"}]}
+		{"code":"A1","omschrijving":"Vaste Activa","subcodes":[
+			{"code":"A111","omschrijving":"Immateri?le vaste activa: Kosten verbonden aan sluiten geldlening en saldo agio/disagio"},
+			{"code":"A112","omschrijving":"Immateri?le vaste activa: Kosten onderzoek en ontwikkeling voor een bepaald actief"},
+			{"code":"A113","omschrijving":"Immateri?le vaste activa: Bijdragen aan activa in eigendom van derden"},
+			{"code":"A121","omschrijving":"Materi?le vaste activa: Gronden en terreinen"},
+			{"code":"A122","omschrijving":"Materi?le vaste activa: Woonruimten"},
+			{"code":"A123","omschrijving":"Materi?le vaste activa: Bedrijfsgebouwen"},
+			{"code":"A124","omschrijving":"Materi?le vaste activa: Grond-, weg- en waterbouwkundige werken"},
+			{"code":"A125","omschrijving":"Materi?le vaste activa: Vervoermiddelen"},
+			{"code":"A126","omschrijving":"Materi?le vaste activa: Machines, apparaten en installaties"},
+			{"code":"A129","omschrijving":"Materi?le vaste activa: Overig"},
+			{"code":"A1311","omschrijving":"Financi?le vaste activa: Kapitaalverstrekking aan deelnemingen"},
+			{"code":"A1312","omschrijving":"Financi?le vaste activa: Kapitaalverstrekking aan gemeenschappelijke regelingen"},
+			{"code":"A1313","omschrijving":"Financi?le vaste activa: Kapitaalverstrekking aan overige verbonden partijen"},
+			{"code":"A1321","omschrijving":"Financi?le vaste activa: Leningen aan woningbouwcorporaties"},
+			{"code":"A1322","omschrijving":"Financi?le vaste activa: Leningen aan deelnemingen"},
+			{"code":"A1323","omschrijving":"Financi?le vaste activa: Leningen aan overige verbonden partijen"},
+			{"code":"A1331a","omschrijving":"Financi?le vaste activa: Leningen aan openbare lichamen (art. 1a Wet Fido)"},
+			{"code":"A1331b","omschrijving":"Financi?le vaste activa: Overige langlopende leningen"},
+			{"code":"A1332a","omschrijving":"Financi?le vaste activa: Uitzettingen in ?s Rijks schatkist met een looptijd = 1 jaar"},
+			{"code":"A1332b","omschrijving":"Financi?le vaste activa: Uitzettingen in de vorm van Nederlands schuldpapier met een looptijd = 1 jaar"},
+			{"code":"A1332c","omschrijving":"Financi?le vaste activa: Overige uitzettingen met een looptijd = 1 jaar"}]},
+		{"code":"A2","omschrijving":"Vlottende Activa","subcodes":[
+			{"code":"A212","omschrijving":"Voorraden: Overige grond- en hulpstoffen"},
+			{"code":"A213","omschrijving":"Voorraden: Onderhanden werk (incl. bouwgronden in exploitatie)"},
+			{"code":"A214","omschrijving":"Voorraden: Gereed product en handelsgoederen"},
+			{"code":"A215","omschrijving":"Voorraden: Vooruitbetalingen"},
+			{"code":"A221","omschrijving":"Uitzettingen: Vorderingen op openbare lichamen"},
+			{"code":"A222a","omschrijving":"Uitzettingen: Verstrekte kasgeldleningen aan openbare lichamen (art. 1a Wet Fido)"},
+			{"code":"A222b","omschrijving":"Uitzettingen: Overige verstrekte kasgeldleningen"},
+			{"code":"A223a","omschrijving":"Uitzettingen: Rekening courant verhouding met het Rijk"},
+			{"code":"A223b","omschrijving":"Uitzettingen: Rekening courant verhoudingen overige niet-financi?le instellingen"},
+			{"code":"A224","omschrijving":"Uitzettingen: Overige vorderingen"},
+			{"code":"A225a","omschrijving":"Uitzettingen: Uitzettingen in ?s Rijks schatkist met een looptijd < 1 jaar"},
+			{"code":"A225b","omschrijving":"Uitzettingen: Uitzettingen in de vorm van Nederlands schuldpapier met een looptijd < 1 jaar"},
+			{"code":"A225c","omschrijving":"Uitzettingen: Overige uitzettingen met een looptijd < 1 jaar"},
+			{"code":"A23","omschrijving":"Liquide middelen (kas- en banksaldi)"},
+			{"code":"A29a","omschrijving":"Overlopende activa: Nog te ontvangen bijdragen van de EU"},
+			{"code":"A29b","omschrijving":"Overlopende activa: Nog te ontvangen bijdragen van het Rijk"},
+			{"code":"A29c","omschrijving":"Overlopende activa: Nog te ontvangen bijdragen van overige overheid"},
+			{"code":"A29d","omschrijving":"Overlopende activa: Overige overlopende activa"}]},
+		{"code":"P1","omschrijving":"Vaste Passiva","subcodes":[
+			{"code":"P111","omschrijving":"Eigen vermogen: Algemene reserve"},
+			{"code":"P112","omschrijving":"Eigen vermogen: Bestemmingsreserves"},
+			{"code":"P114","omschrijving":"Eigen vermogen: Saldo van rekening"},
+			{"code":"P12","omschrijving":"Voorzieningen"},
+			{"code":"P131","omschrijving":"Vaste schuld: Obligatieleningen"},
+			{"code":"P132","omschrijving":"Vaste schuld: Onderhandse leningen van binnenlandse pensioenfondsen en verzekeraars"},
+			{"code":"P133","omschrijving":"Vaste schuld: Onderhandse leningen van binnenlandse banken en overige financi?le instellingen"},
+			{"code":"P134","omschrijving":"Vaste schuld: Onderhandse leningen van binnenlandse bedrijven"},
+			{"code":"P135a","omschrijving":"Vaste schuld: Onderhandse leningen van openbare lichamen (art. 1a Wet Fido)"},
+			{"code":"P135b","omschrijving":"Vaste schuld: Onderhandse leningen van overige binnenlandse sectoren"},
+			{"code":"P136","omschrijving":"Vaste schuld: Onderhandse leningen van buitenlandse instellingen"},
+			{"code":"P137","omschrijving":"Vaste schuld: Door derden belegde gelden"},
+			{"code":"P138","omschrijving":"Vaste schuld: Waarborgsommen"},
+			{"code":"P139","omschrijving":"Renteswaps en derivaten"},
+			{"code":"P140","omschrijving":"Overige leningen met een rentetypische looptijd van ??n jaar of langer"}]},
+		{"code":"P2","omschrijving":"Vlottende Passiva","subcodes":[
+			{"code":"P211a","omschrijving":"Vlottende schuld: Kasgeldleningen van openbare lichamen (art. 1a Wet Fido)"},
+			{"code":"P211b","omschrijving":"Vlottende schuld: Overige kasgeldleningen"},
+			{"code":"P212","omschrijving":"Vlottende schuld: Banksaldi"},
+			{"code":"P213","omschrijving":"Vlottende schuld: Overige vlottende schulden"},
+			{"code":"P29a","omschrijving":"Overlopende passiva: Vooruit ontvangen bijdragen van de EU"},
+			{"code":"P29b","omschrijving":"Overlopende passiva: Vooruit ontvangen bijdragen van het Rijk"},
+			{"code":"P29c","omschrijving":"Overlopende passiva: Vooruit ontvangen bijdragen van overige overheid"},
+			{"code":"P29d","omschrijving":"Overlopende passiva: Overige overlopende passiva"}]}
 	]
   },
   	"standper": {
       "codelijst": [
-        {"code": "1 januari","description": "begindatum"},
-        {"code": "ultimo","description": "einddatum"}
+        {"code": "1 januari","omschrijving": "begindatum"},
+        {"code": "ultimo","omschrijving": "einddatum"}
       ]
     },
   	"categorie_lasten":{
        "codelijst": [
 	       {"code":"Lopende Rekening","subcodes":[
-			{"code":"1.1","description":"Salarissen en sociale lasten"},
-			{"code":"2.1","description":"Belastingen"},
-			{"code":"3.1","description":"Grond"},
-			{"code":"3.2","description":"Duurzame goederen"},
-			{"code":"3.3","description":"Pachten"},
-			{"code":"3.4.1","description":"Sociale uitkeringen in natura"},
-			{"code":"3.5.1","description":"Ingeleend personeel"},
-			{"code":"3.8","description":"Overige goederen en diensten"},
-			{"code":"4.1.1","description":"Sociale uitkeringen in geld"},
-			{"code":"4.2","description":"Subsidies"},
-			{"code":"4.3.1","description":"Inkomensoverdrachten - Rijk"},
-			{"code":"4.3.2","description":"Inkomensoverdrachten - gemeenten"},
-			{"code":"4.3.3","description":"Inkomensoverdrachten - gemeenschappelijke regelingen"},
-			{"code":"4.3.4","description":"Inkomensoverdrachten - provincies "},
-			{"code":"4.3.5","description":"Inkomensoverdrachten - waterschappen"},
-			{"code":"4.3.6","description":"Inkomensoverdrachten - overige overheden"},
-			{"code":"4.3.7","description":"Inkomensoverdrachten - Europese Unie"},
-			{"code":"4.3.8","description":"Inkomensoverdrachten - overige instellingen en personen"},
-			{"code":"4.3.9","description":"Inkomensoverdrachten - onverdeeld"},
-			{"code":"4.4.1","description":"Kapitaaloverdrachten - Rijk"},
-			{"code":"4.4.2","description":"Kapitaaloverdrachten - gemeenten"},
-			{"code":"4.4.3","description":"Kapitaaloverdrachten - gemeenschappelijke regelingen"},
-			{"code":"4.4.4","description":"Kapitaaloverdrachten - provincies "},
-			{"code":"4.4.5","description":"Kapitaaloverdrachten - waterschappen"},
-			{"code":"4.4.6","description":"Kapitaaloverdrachten - overige overheden"},
-			{"code":"4.4.7","description":"Kapitaaloverdrachten - Europese Unie"},
-			{"code":"4.4.8","description":"Kapitaaloverdrachten - overige instellingen en personen"},
-			{"code":"4.4.9","description":"Kapitaaloverdrachten - onverdeeld"},
-			{"code":"5.1","description":"Rente"}]
+			{"code":"1.1","omschrijving":"Salarissen en sociale lasten"},
+			{"code":"2.1","omschrijving":"Belastingen"},
+			{"code":"3.1","omschrijving":"Grond"},
+			{"code":"3.2","omschrijving":"Duurzame goederen"},
+			{"code":"3.3","omschrijving":"Pachten"},
+			{"code":"3.4.1","omschrijving":"Sociale uitkeringen in natura"},
+			{"code":"3.5.1","omschrijving":"Ingeleend personeel"},
+			{"code":"3.8","omschrijving":"Overige goederen en diensten"},
+			{"code":"4.1.1","omschrijving":"Sociale uitkeringen in geld"},
+			{"code":"4.2","omschrijving":"Subsidies"},
+			{"code":"4.3.1","omschrijving":"Inkomensoverdrachten - Rijk"},
+			{"code":"4.3.2","omschrijving":"Inkomensoverdrachten - gemeenten"},
+			{"code":"4.3.3","omschrijving":"Inkomensoverdrachten - gemeenschappelijke regelingen"},
+			{"code":"4.3.4","omschrijving":"Inkomensoverdrachten - provincies "},
+			{"code":"4.3.5","omschrijving":"Inkomensoverdrachten - waterschappen"},
+			{"code":"4.3.6","omschrijving":"Inkomensoverdrachten - overige overheden"},
+			{"code":"4.3.7","omschrijving":"Inkomensoverdrachten - Europese Unie"},
+			{"code":"4.3.8","omschrijving":"Inkomensoverdrachten - overige instellingen en personen"},
+			{"code":"4.3.9","omschrijving":"Inkomensoverdrachten - onverdeeld"},
+			{"code":"4.4.1","omschrijving":"Kapitaaloverdrachten - Rijk"},
+			{"code":"4.4.2","omschrijving":"Kapitaaloverdrachten - gemeenten"},
+			{"code":"4.4.3","omschrijving":"Kapitaaloverdrachten - gemeenschappelijke regelingen"},
+			{"code":"4.4.4","omschrijving":"Kapitaaloverdrachten - provincies "},
+			{"code":"4.4.5","omschrijving":"Kapitaaloverdrachten - waterschappen"},
+			{"code":"4.4.6","omschrijving":"Kapitaaloverdrachten - overige overheden"},
+			{"code":"4.4.7","omschrijving":"Kapitaaloverdrachten - Europese Unie"},
+			{"code":"4.4.8","omschrijving":"Kapitaaloverdrachten - overige instellingen en personen"},
+			{"code":"4.4.9","omschrijving":"Kapitaaloverdrachten - onverdeeld"},
+			{"code":"5.1","omschrijving":"Rente"}]
 		},
 		{"code":"Financiele Rekening","subcodes":[
-			{"code":"6.1","description":"Financi?le transacties"}]
+			{"code":"6.1","omschrijving":"Financi?le transacties"}]
 		},
 		{"code":"Interne Verrekeningen","subcodes":[
-			{"code":"7.1","description":"Mutatie reserves"},
-			{"code":"7.2","description":"Mutatie voorzieningen"},
-			{"code":"7.3","description":"Afschrijvingen"},
-			{"code":"7.4","description":"Toegerekende re?le en bespaarde rente"},
-			{"code":"7.5","description":"Overige verrekeningen"}]
+			{"code":"7.1","omschrijving":"Mutatie reserves"},
+			{"code":"7.2","omschrijving":"Mutatie voorzieningen"},
+			{"code":"7.3","omschrijving":"Afschrijvingen"},
+			{"code":"7.4","omschrijving":"Toegerekende re?le en bespaarde rente"},
+			{"code":"7.5","omschrijving":"Overige verrekeningen"}]
 		}
 	]
    },
    	"categorie_baten":{
 	   	"codelijst": [
 	    	{"code":"Lopende Rekening", "subcodes":[
-			{"code":"2.2.1","description":"Belastingen op producenten"},
-			{"code":"2.2.2","description":"Belastingen op huishoudens"},
-			{"code":"3.1","description":"Grond"},
-			{"code":"3.2","description":"Duurzame goederen"},
-			{"code":"3.3","description":"Pachten"},
-			{"code":"3.4.2","description":"Eigen bijdragen en verhaal sociale uitkeringen in natura"},
-			{"code":"3.5.2","description":"Uitgeleend personeel"},
-			{"code":"3.6","description":"Huren"},
-			{"code":"3.7","description":"Leges en andere rechten"},
-			{"code":"3.8","description":"Overige goederen en diensten"},
-			{"code":"4.1.2","description":"Verhaal sociale uitkeringen in geld"},
-			{"code":"4.3.1","description":"Inkomensoverdrachten - Rijk"},
-			{"code":"4.3.2","description":"Inkomensoverdrachten - gemeenten"},
-			{"code":"4.3.3","description":"Inkomensoverdrachten - gemeenschappelijke regelingen"},
-			{"code":"4.3.4","description":"Inkomensoverdrachten - provincies "},
-			{"code":"4.3.5","description":"Inkomensoverdrachten - waterschappen"},
-			{"code":"4.3.6","description":"Inkomensoverdrachten - overige overheden"},
-			{"code":"4.3.7","description":"Inkomensoverdrachten - Europese Unie"},
-			{"code":"4.3.8","description":"Inkomensoverdrachten - overige instellingen en personen"},
-			{"code":"4.3.9","description":"Inkomensoverdrachten - onverdeeld"},
-			{"code":"4.4.1","description":"Kapitaaloverdrachten - Rijk"},
-			{"code":"4.4.2","description":"Kapitaaloverdrachten - gemeenten"},
-			{"code":"4.4.3","description":"Kapitaaloverdrachten - gemeenschappelijke regelingen"},
-			{"code":"4.4.4","description":"Kapitaaloverdrachten - provincies "},
-			{"code":"4.4.5","description":"Kapitaaloverdrachten - waterschappen"},
-			{"code":"4.4.6","description":"Kapitaaloverdrachten - overige overheden"},
-			{"code":"4.4.7","description":"Kapitaaloverdrachten - Europese Unie"},
-			{"code":"4.4.8","description":"Kapitaaloverdrachten - overige instellingen en personen"},
-			{"code":"4.4.9","description":"Kapitaaloverdrachten - onverdeeld"},
-			{"code":"5.1","description":"Rente"},
-			{"code":"5.2","description":"Dividenden en winsten"}]
+			{"code":"2.2.1","omschrijving":"Belastingen op producenten"},
+			{"code":"2.2.2","omschrijving":"Belastingen op huishoudens"},
+			{"code":"3.1","omschrijving":"Grond"},
+			{"code":"3.2","omschrijving":"Duurzame goederen"},
+			{"code":"3.3","omschrijving":"Pachten"},
+			{"code":"3.4.2","omschrijving":"Eigen bijdragen en verhaal sociale uitkeringen in natura"},
+			{"code":"3.5.2","omschrijving":"Uitgeleend personeel"},
+			{"code":"3.6","omschrijving":"Huren"},
+			{"code":"3.7","omschrijving":"Leges en andere rechten"},
+			{"code":"3.8","omschrijving":"Overige goederen en diensten"},
+			{"code":"4.1.2","omschrijving":"Verhaal sociale uitkeringen in geld"},
+			{"code":"4.3.1","omschrijving":"Inkomensoverdrachten - Rijk"},
+			{"code":"4.3.2","omschrijving":"Inkomensoverdrachten - gemeenten"},
+			{"code":"4.3.3","omschrijving":"Inkomensoverdrachten - gemeenschappelijke regelingen"},
+			{"code":"4.3.4","omschrijving":"Inkomensoverdrachten - provincies "},
+			{"code":"4.3.5","omschrijving":"Inkomensoverdrachten - waterschappen"},
+			{"code":"4.3.6","omschrijving":"Inkomensoverdrachten - overige overheden"},
+			{"code":"4.3.7","omschrijving":"Inkomensoverdrachten - Europese Unie"},
+			{"code":"4.3.8","omschrijving":"Inkomensoverdrachten - overige instellingen en personen"},
+			{"code":"4.3.9","omschrijving":"Inkomensoverdrachten - onverdeeld"},
+			{"code":"4.4.1","omschrijving":"Kapitaaloverdrachten - Rijk"},
+			{"code":"4.4.2","omschrijving":"Kapitaaloverdrachten - gemeenten"},
+			{"code":"4.4.3","omschrijving":"Kapitaaloverdrachten - gemeenschappelijke regelingen"},
+			{"code":"4.4.4","omschrijving":"Kapitaaloverdrachten - provincies "},
+			{"code":"4.4.5","omschrijving":"Kapitaaloverdrachten - waterschappen"},
+			{"code":"4.4.6","omschrijving":"Kapitaaloverdrachten - overige overheden"},
+			{"code":"4.4.7","omschrijving":"Kapitaaloverdrachten - Europese Unie"},
+			{"code":"4.4.8","omschrijving":"Kapitaaloverdrachten - overige instellingen en personen"},
+			{"code":"4.4.9","omschrijving":"Kapitaaloverdrachten - onverdeeld"},
+			{"code":"5.1","omschrijving":"Rente"},
+			{"code":"5.2","omschrijving":"Dividenden en winsten"}]
 		},
 		{"code":"Financiele Rekening","subcodes":[		
-			{"code":"6.1","description":"Financi?le transacties"}]
+			{"code":"6.1","omschrijving":"Financi?le transacties"}]
 		},
 		{"code":"Interne Verrekeningen","subcodes":[
-			{"code":"7.1","description":"Mutatie reserves"},
-			{"code":"7.2","description":"Mutatie voorzieningen"},
-			{"code":"7.3","description":"Afschrijvingen"},
-			{"code":"7.4","description":"Toegerekende re?le en bespaarde rente"},
-			{"code":"7.5","description":"Overige verrekeningen"}]
+			{"code":"7.1","omschrijving":"Mutatie reserves"},
+			{"code":"7.2","omschrijving":"Mutatie voorzieningen"},
+			{"code":"7.3","omschrijving":"Afschrijvingen"},
+			{"code":"7.4","omschrijving":"Toegerekende re?le en bespaarde rente"},
+			{"code":"7.5","omschrijving":"Overige verrekeningen"}]
 		}
 		]
   	},
 	"dimensies": {
       "codelijst": [
-        {"code":"dimensies_lasten","rekeningsoort": "lasten","description": "dimensies voor rekeningsoort lasten","subcodes": [
-            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_lasten","description":"kolomkoppen lasten tabel"},
-            {"code":"dimensie_2","sleutelnaam":"taakveld","codelijst":"taakveld","description":"rijkoppen lasten tabel"}
+        {"code":"dimensies_lasten","rekeningsoort": "lasten","omschrijving": "dimensies voor rekeningsoort lasten","subcodes": [
+            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_lasten","omschrijving":"kolomkoppen lasten tabel"},
+            {"code":"dimensie_2","sleutelnaam":"taakveld","codelijst":"taakveld","omschrijving":"rijkoppen lasten tabel"}
               ]
             },
-        {"code":"dimensies_baten","rekeningsoort": "baten","description": "dimensies voor rekeningsoort baten","subcodes": [
-            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_baten","description":"kolomkoppen baten tabel"},
-            {"code":"dimensie_2","sleutelnaam":"taakveld","codelijst":"taakveld","description":"rijkoppen baten tabel"}
+        {"code":"dimensies_baten","rekeningsoort": "baten","omschrijving": "dimensies voor rekeningsoort baten","subcodes": [
+            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_baten","omschrijving":"kolomkoppen baten tabel"},
+            {"code":"dimensie_2","sleutelnaam":"taakveld","codelijst":"taakveld","omschrijving":"rijkoppen baten tabel"}
               ]
             },  
             
-         {"code":"dimensies_balans_lasten","rekeningsoort": "balans_lasten","description": "dimensies voor rekeningsoort balans_lasten","subcodes": [
-            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_lasten","description":"kolomkoppen balans_lasten tabel"},
-            {"code":"dimensie_2","sleutelnaam":"balanscode","codelijst":"balanscode","description":"rijkoppen balans_lasten tabel"}
+         {"code":"dimensies_balans_lasten","rekeningsoort": "balans_lasten","omschrijving": "dimensies voor rekeningsoort balans_lasten","subcodes": [
+            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_lasten","omschrijving":"kolomkoppen balans_lasten tabel"},
+            {"code":"dimensie_2","sleutelnaam":"balanscode","codelijst":"balanscode","omschrijving":"rijkoppen balans_lasten tabel"}
               ]
             },     
             
-         {"code":"dimensies_balans_baten","rekeningsoort": "balans_baten","description": "dimensies voor rekeningsoort balans_baten","subcodes": [
-            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_baten","description":"kolomkoppen balans_baten tabel"},
-            {"code":"dimensie_2","sleutelnaam":"balanscode","codelijst":"balanscode","description":"rijkoppen balans_baten tabel"}
+         {"code":"dimensies_balans_baten","rekeningsoort": "balans_baten","omschrijving": "dimensies voor rekeningsoort balans_baten","subcodes": [
+            {"code":"dimensie_1","sleutelnaam":"categorie","codelijst":"categorie_baten","omschrijving":"kolomkoppen balans_baten tabel"},
+            {"code":"dimensie_2","sleutelnaam":"balanscode","codelijst":"balanscode","omschrijving":"rijkoppen balans_baten tabel"}
               ]
             },     
             
-         {"code":"dimensies_balans_standen","rekeningsoort": "balans_standen","description": "dimensies voor rekeningsoort balans_standen","subcodes": [
-            {"code":"dimensie_1","sleutelnaam":"balansdatum","codelijst":"balansdatum","description":"kolomkoppen balans_standen tabel"},
-            {"code":"dimensie_2","sleutelnaam":"balanscode","codelijst":"balanscode","description":"rijkoppen balans_standen tabel"}
+         {"code":"dimensies_balans_standen","rekeningsoort": "balans_standen","omschrijving": "dimensies voor rekeningsoort balans_standen","subcodes": [
+            {"code":"dimensie_1","sleutelnaam":"balansdatum","codelijst":"balansdatum","omschrijving":"kolomkoppen balans_standen tabel"},
+            {"code":"dimensie_2","sleutelnaam":"balanscode","codelijst":"balanscode","omschrijving":"rijkoppen balans_standen tabel"}
               ]
             }
           ]
