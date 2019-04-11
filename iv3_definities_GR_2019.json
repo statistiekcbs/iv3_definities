@@ -275,69 +275,69 @@
   "controlelijst": {
     "controles": [
       {"controle-id": 1,"omschrijving": "Controle 01", "definitie": [
-      
-          {"volgnr": 1, "variabele": "Totaal_lasten_taakv_LR", "expressie": 
-          	{"rekeningsoort": "lasten", "taakveld": "taakveld", "categorie": "Lopende Rekening"},
+
+          {"volgnr": 1, "variabele": "Totaal_lasten_taakv_LR", "expressie":
+          	{"rekeningsoort": "lasten", "taakveld": "Totaal taakveld", "categorie": "Lopende Rekening"},
           		"omschrijving": "totaal lasten taakveld cat 1 tm 5(lopende rekening)"},
-          		
-          {"volgnr": 2, "variabele": "Totaal_lasten_balans_LR","expressie": 
-          	{"rekeningsoort": "balans_lasten", "balanscode": "balanscode","categorie": "Lopende Rekening"},
+
+          {"volgnr": 2, "variabele": "Totaal_lasten_balans_LR","expressie":
+          	{"rekeningsoort": "balans_lasten", "balanscode": "Totaal balanscode","categorie": "Lopende Rekening"},
           		"omschrijving": "totaal lasten balansmutaties cat 1 tm 5(lopende rekening)"},
-          		
-          {"volgnr": 3, "variabele": "Totaal_lasten_LR","expressie": 
-          	{"formule": "Totaal_lasten_LR + Totaal_lasten_balans_LR"},
+
+          {"volgnr": 3, "variabele": "Totaal_lasten_LR","expressie":
+          	{"formule": "Totaal_lasten_taakv_LR + Totaal_lasten_balans_LR"},
           		"omschrijving": "a. totaal lasten cat 1 tm 5(lopende rekening)"},
-      
-          {"volgnr": 4,"variabele": "Totaal_baten_taakv_LR","expressie": 
-          	{"rekeningsoort": "baten","taakveld": "taakveld", "categorie": "Lopende Rekening"},
+
+          {"volgnr": 4,"variabele": "Totaal_baten_taakv_LR","expressie":
+          	{"rekeningsoort": "baten","taakveld": "Totaal taakveld", "categorie": "Lopende Rekening"},
           		"omschrijving": "totaal baten taakveld cat 1 tm 5(lopende rekening)"},
-          		
-          {"volgnr": 5, "variabele": "Totaal_baten_balans_LR","expressie": 
-          	{"rekeningsoort": "balans_baten","balanscode": "balanscode","categorie": "Lopende Rekening"},
+
+          {"volgnr": 5, "variabele": "Totaal_baten_balans_LR","expressie":
+          	{"rekeningsoort": "balans_baten","balanscode": "Totaal balanscode","categorie": "Lopende Rekening"},
           		"omschrijving": "totaal baten balansmutaties cat 1 tm 5(lopende rekening)"},
-          		
-          {"volgnr": 6,"variabele": "Totaal_baten_LR","expressie": 
+
+          {"volgnr": 6,"variabele": "Totaal_baten_LR","expressie":
           	{"formule": "Totaal_baten_taakv_LR + Totaal_baten_balans_LR"},
           		"omschrijving": "totaal baten cat 1 tm 5(lopende rekening)"},
-          		
-          {"volgnr": 7,"variabele": "Emu_saldo_LR","expressie": 
+
+          {"volgnr": 7,"variabele": "Emu_saldo_LR","expressie":
           	{"formule": "Totaal_baten_LR - Totaal_lasten_LR"},
-          		"omschrijving": "b. EMU saldo niet-financi?le rekening(lopende rekening)"},
-          		
-          {"volgnr": 8,"variabele": "Totaal_lasten_taakv_FR","expressie": 
-          	{"rekeningsoort": "lasten","taakveld": "taakveld","categorie": "Financi?le Rekening"},
+          		"omschrijving": "b. EMU saldo niet-financiele rekening(lopende rekening)"},
+
+          {"volgnr": 8,"variabele": "Totaal_lasten_taakv_FR","expressie":
+          	{"rekeningsoort": "lasten","taakveld": "Totaal taakveld","categorie": "Financiele Rekening"},
           		"omschrijving": "lasten taakveld cat 6.1(financiele rekening)"},
-          		
-          {"volgnr": 9,"variabele": "Totaal_lasten_balans_FR","expressie": 
-          	{"rekeningsoort": "balans_lasten","balanscode": "balanscode","categorie": "Financi?le Rekening"},
+
+          {"volgnr": 9,"variabele": "Totaal_lasten_balans_FR","expressie":
+          	{"rekeningsoort": "balans_lasten","balanscode": "Totaal balanscode","categorie": "Financiele Rekening"},
           		"omschrijving": "lasten balansmutaties cat 6.1"},
-          		
-          {"volgnr": 10,"variabele": "Totaal_lasten_FR","expressie": 
+
+          {"volgnr": 10,"variabele": "Totaal_lasten_FR","expressie":
           	{"formule": "Totaal_lasten_taakv_FR + Totaal_lasten_balans_FR"},
           		"omschrijving": "totaal lasten cat 6.1(financiele rekening)"},
-          		
-          {"volgnr": 11,"variabele": "Totaal_baten_taakv_FR", "expressie": 
-          	{"rekeningsoort": "baten", "taakveld": "taakveld", "categorie":"Financi?le Rekening"},
+
+          {"volgnr": 11,"variabele": "Totaal_baten_taakv_FR", "expressie":
+          	{"rekeningsoort": "baten", "taakveld": "Totaal taakveld", "categorie":"Financiele Rekening"},
 			"omschrijving": "baten taakveld cat 6.1(financiele rekening)"},
-			
-          {"volgnr": 12,"variabele": "Totaal_baten_balans_FR","expressie": 
-          	{"rekeningsoort": "balans_baten","balanscode": "balanscode", "categorie": "Financi?le Rekening"},
+
+          {"volgnr": 12,"variabele": "Totaal_baten_balans_FR","expressie":
+          	{"rekeningsoort": "balans_baten","balanscode": "Totaal balanscode", "categorie": "Financiele Rekening"},
 			"omschrijving": "baten balansmutaties cat 6.1(financiele rekening)"},
-          
-          {"volgnr": 13,"variabele": "Totaal_baten_FR","expressie": 
-          	{"formule": "Totaal_baten_taakv_FR - Totaal_baten_balans_FR"},
+
+          {"volgnr": 13,"variabele": "Totaal_baten_FR","expressie":
+          	{"formule": "Totaal_baten_taakv_FR + Totaal_baten_balans_FR"},
 			"omschrijving": "totaal baten cat 6.1(financiele rekening)"},
-			
-          {"volgnr": 14,"variabele": "Emu_saldo_FR","expressie": 
+
+          {"volgnr": 14,"variabele": "Emu_saldo_FR","expressie":
           	{"formule": "Totaal_baten_FR - Totaal_lasten_FR"},
-			"omschrijving": "c. EMU-saldo berekend uit de financi?le rekening (cat 6.1)(financiele rekening)"},
-          
-          {"volgnr": 15, "variabele": "Absoluut_verschil","expressie": 
+			"omschrijving": "c. EMU-saldo berekend uit de financiele rekening (cat 6.1)(financiele rekening)"},
+
+          {"volgnr": 15, "variabele": "Absoluut_verschil","expressie":
           	{"formule": "ABS(Emu_saldo_LR - Emu_saldo_FR)"},
 	            "omschrijving": "d=|b-c| Absolute afwijking"},
-          
-          {"volgnr": 16,"variabele": "relatief_verschil","expressie": 
-          	{"formule": "(Absoluut_verschil / Totaal_lasten_LR)"},
+
+          {"volgnr": 16,"variabele": "relatief_verschil","expressie":
+          	{"formule": "Absoluut_verschil / Emu_saldo_LR"},
 			"omschrijving": "e=d/a Afwijking in procenten"},
 			
           {"volgnr": 17,"variabele": "Waardering controle 01","expressie": 
