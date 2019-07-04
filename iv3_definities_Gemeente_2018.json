@@ -328,7 +328,7 @@
 			"omschrijving": "totaal baten cat 6.1(financiele rekening)"},
 			
           {"volgnr": 14,"variabele": "Emu_saldo_FR","expressie": 
-          	{"formule": "Totaal_baten_FR - Totaal_lasten_FR"},
+          	{"formule": "Totaal_lasten_FR - Totaal_baten_FR"},
 			"omschrijving": "c. EMU-saldo berekend uit de financiele rekening (cat 6.1)(financiele rekening)"},
           
           {"volgnr": 15, "variabele": "Absoluut_verschil","expressie": 
