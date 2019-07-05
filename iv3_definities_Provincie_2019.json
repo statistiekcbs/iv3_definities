@@ -70,27 +70,27 @@
    	"balanscode":{
       "codelijst": [
 		{"code":"A1","omschrijving":"Vaste Activa","subcodes":[
-			{"code":"A111","omschrijving":"Immateri?le vaste activa: Kosten verbonden aan sluiten geldlening en saldo agio/disagio"},
-			{"code":"A112","omschrijving":"Immateri?le vaste activa: Kosten onderzoek en ontwikkeling voor een bepaald actief"},
-			{"code":"A113","omschrijving":"Immateri?le vaste activa: Bijdragen aan activa in eigendom van derden"},
-			{"code":"A121","omschrijving":"Materi?le vaste activa: Gronden en terreinen"},
-			{"code":"A122","omschrijving":"Materi?le vaste activa: Woonruimten"},
-			{"code":"A123","omschrijving":"Materi?le vaste activa: Bedrijfsgebouwen"},
-			{"code":"A124","omschrijving":"Materi?le vaste activa: Grond-, weg- en waterbouwkundige werken"},
-			{"code":"A125","omschrijving":"Materi?le vaste activa: Vervoermiddelen"},
-			{"code":"A126","omschrijving":"Materi?le vaste activa: Machines, apparaten en installaties"},
-			{"code":"A129","omschrijving":"Materi?le vaste activa: Overig"},
-			{"code":"A1311","omschrijving":"Financi?le vaste activa: Kapitaalverstrekking aan deelnemingen"},
-			{"code":"A1312","omschrijving":"Financi?le vaste activa: Kapitaalverstrekking aan gemeenschappelijke regelingen"},
-			{"code":"A1313","omschrijving":"Financi?le vaste activa: Kapitaalverstrekking aan overige verbonden partijen"},
-			{"code":"A1321","omschrijving":"Financi?le vaste activa: Leningen aan woningbouwcorporaties"},
-			{"code":"A1322","omschrijving":"Financi?le vaste activa: Leningen aan deelnemingen"},
-			{"code":"A1323","omschrijving":"Financi?le vaste activa: Leningen aan overige verbonden partijen"},
-			{"code":"A1331a","omschrijving":"Financi?le vaste activa: Leningen aan openbare lichamen (art. 1a Wet Fido)"},
-			{"code":"A1331b","omschrijving":"Financi?le vaste activa: Overige langlopende leningen"},
-			{"code":"A1332a","omschrijving":"Financi?le vaste activa: Uitzettingen in ?s Rijks schatkist met een looptijd = 1 jaar"},
-			{"code":"A1332b","omschrijving":"Financi?le vaste activa: Uitzettingen in de vorm van Nederlands schuldpapier met een looptijd = 1 jaar"},
-			{"code":"A1332c","omschrijving":"Financi?le vaste activa: Overige uitzettingen met een looptijd = 1 jaar"}]},
+			{"code":"A111","omschrijving":"Immateriële vaste activa: Kosten verbonden aan sluiten geldlening en saldo agio/disagio"},
+			{"code":"A112","omschrijving":"Immateriële vaste activa: Kosten onderzoek en ontwikkeling voor een bepaald actief"},
+			{"code":"A113","omschrijving":"Immateriële vaste activa: Bijdragen aan activa in eigendom van derden"},
+			{"code":"A121","omschrijving":"Materiële vaste activa: Gronden en terreinen"},
+			{"code":"A122","omschrijving":"Materiële vaste activa: Woonruimten"},
+			{"code":"A123","omschrijving":"Materiële vaste activa: Bedrijfsgebouwen"},
+			{"code":"A124","omschrijving":"Materiële vaste activa: Grond-, weg- en waterbouwkundige werken"},
+			{"code":"A125","omschrijving":"Materiële vaste activa: Vervoermiddelen"},
+			{"code":"A126","omschrijving":"Materiële vaste activa: Machines, apparaten en installaties"},
+			{"code":"A129","omschrijving":"Materiële vaste activa: Overig"},
+			{"code":"A1311","omschrijving":"Financiële vaste activa: Kapitaalverstrekking aan deelnemingen"},
+			{"code":"A1312","omschrijving":"Financiële vaste activa: Kapitaalverstrekking aan gemeenschappelijke regelingen"},
+			{"code":"A1313","omschrijving":"Financiële vaste activa: Kapitaalverstrekking aan overige verbonden partijen"},
+			{"code":"A1321","omschrijving":"Financiële vaste activa: Leningen aan woningbouwcorporaties"},
+			{"code":"A1322","omschrijving":"Financiële vaste activa: Leningen aan deelnemingen"},
+			{"code":"A1323","omschrijving":"Financiële vaste activa: Leningen aan overige verbonden partijen"},
+			{"code":"A1331a","omschrijving":"Financiële vaste activa: Leningen aan openbare lichamen (art. 1a Wet Fido)"},
+			{"code":"A1331b","omschrijving":"Financiële vaste activa: Overige langlopende leningen"},
+			{"code":"A1332a","omschrijving":"Financiële vaste activa: Uitzettingen in ?s Rijks schatkist met een looptijd = 1 jaar"},
+			{"code":"A1332b","omschrijving":"Financiële vaste activa: Uitzettingen in de vorm van Nederlands schuldpapier met een looptijd = 1 jaar"},
+			{"code":"A1332c","omschrijving":"Financiële vaste activa: Overige uitzettingen met een looptijd = 1 jaar"}]},
 		{"code":"A2","omschrijving":"Vlottende Activa","subcodes":[
 			{"code":"A212","omschrijving":"Voorraden: Overige grond- en hulpstoffen"},
 			{"code":"A213","omschrijving":"Voorraden: Onderhanden werk (incl. bouwgronden in exploitatie)"},
@@ -100,7 +100,7 @@
 			{"code":"A222a","omschrijving":"Uitzettingen: Verstrekte kasgeldleningen aan openbare lichamen (art. 1a Wet Fido)"},
 			{"code":"A222b","omschrijving":"Uitzettingen: Overige verstrekte kasgeldleningen"},
 			{"code":"A223a","omschrijving":"Uitzettingen: Rekening courant verhouding met het Rijk"},
-			{"code":"A223b","omschrijving":"Uitzettingen: Rekening courant verhoudingen overige niet-financi?le instellingen"},
+			{"code":"A223b","omschrijving":"Uitzettingen: Rekening courant verhoudingen overige niet-Financiële instellingen"},
 			{"code":"A224","omschrijving":"Uitzettingen: Overige vorderingen"},
 			{"code":"A225a","omschrijving":"Uitzettingen: Uitzettingen in ?s Rijks schatkist met een looptijd < 1 jaar"},
 			{"code":"A225b","omschrijving":"Uitzettingen: Uitzettingen in de vorm van Nederlands schuldpapier met een looptijd < 1 jaar"},
@@ -117,7 +117,7 @@
 			{"code":"P12","omschrijving":"Voorzieningen"},
 			{"code":"P131","omschrijving":"Vaste schuld: Obligatieleningen"},
 			{"code":"P132","omschrijving":"Vaste schuld: Onderhandse leningen van binnenlandse pensioenfondsen en verzekeraars"},
-			{"code":"P133","omschrijving":"Vaste schuld: Onderhandse leningen van binnenlandse banken en overige financi?le instellingen"},
+			{"code":"P133","omschrijving":"Vaste schuld: Onderhandse leningen van binnenlandse banken en overige Financiële instellingen"},
 			{"code":"P134","omschrijving":"Vaste schuld: Onderhandse leningen van binnenlandse bedrijven"},
 			{"code":"P135a","omschrijving":"Vaste schuld: Onderhandse leningen van openbare lichamen (art. 1a Wet Fido)"},
 			{"code":"P135b","omschrijving":"Vaste schuld: Onderhandse leningen van overige binnenlandse sectoren"},
@@ -176,8 +176,8 @@
 			{"code":"4.4.9","omschrijving":"Kapitaaloverdrachten - onverdeeld"},
 			{"code":"5.1","omschrijving":"Rente"}]
 		},
-		{"code":"Financiele Rekening","subcodes":[
-			{"code":"6.1","omschrijving":"Financi?le transacties"}]
+		{"code":"Financiële Rekening","subcodes":[
+			{"code":"6.1","omschrijving":"Financiële transacties"}]
 		},
 		{"code":"Interne Verrekeningen","subcodes":[
 			{"code":"7.1","omschrijving":"Mutatie reserves"},
@@ -223,8 +223,8 @@
 			{"code":"5.1","omschrijving":"Rente"},
 			{"code":"5.2","omschrijving":"Dividenden en winsten"}]
 		},
-		{"code":"Financiele Rekening","subcodes":[		
-			{"code":"6.1","omschrijving":"Financi?le transacties"}]
+		{"code":"Financiële Rekening","subcodes":[		
+			{"code":"6.1","omschrijving":"Financiële transacties"}]
 		},
 		{"code":"Interne Verrekeningen","subcodes":[
 			{"code":"7.1","omschrijving":"Mutatie reserves"},
@@ -298,35 +298,35 @@
 
           {"volgnr": 7,"variabele": "Emu_saldo_LR","expressie":
           	{"formule": "Totaal_baten_LR - Totaal_lasten_LR"},
-          		"omschrijving": "b. EMU saldo niet-financiele rekening(lopende rekening)"},
+          		"omschrijving": "b. EMU saldo niet-Financiële rekening(lopende rekening)"},
 
           {"volgnr": 8,"variabele": "Totaal_lasten_taakv_FR","expressie":
-          	{"rekeningsoort": "lasten","taakveld": "Totaal taakveld","categorie": "Financiele Rekening"},
-          		"omschrijving": "lasten taakveld cat 6.1(financiele rekening)"},
+          	{"rekeningsoort": "lasten","taakveld": "Totaal taakveld","categorie": "Financiële Rekening"},
+          		"omschrijving": "lasten taakveld cat 6.1(Financiële rekening)"},
 
           {"volgnr": 9,"variabele": "Totaal_lasten_balans_FR","expressie":
-          	{"rekeningsoort": "balans_lasten","balanscode": "Totaal balanscode","categorie": "Financiele Rekening"},
+          	{"rekeningsoort": "balans_lasten","balanscode": "Totaal balanscode","categorie": "Financiële Rekening"},
           		"omschrijving": "lasten balansmutaties cat 6.1"},
 
           {"volgnr": 10,"variabele": "Totaal_lasten_FR","expressie":
           	{"formule": "Totaal_lasten_taakv_FR + Totaal_lasten_balans_FR"},
-          		"omschrijving": "totaal lasten cat 6.1(financiele rekening)"},
+          		"omschrijving": "totaal lasten cat 6.1(Financiële rekening)"},
 
           {"volgnr": 11,"variabele": "Totaal_baten_taakv_FR", "expressie":
-          	{"rekeningsoort": "baten", "taakveld": "Totaal taakveld", "categorie":"Financiele Rekening"},
-			"omschrijving": "baten taakveld cat 6.1(financiele rekening)"},
+          	{"rekeningsoort": "baten", "taakveld": "Totaal taakveld", "categorie":"Financiële Rekening"},
+			"omschrijving": "baten taakveld cat 6.1(Financiële rekening)"},
 
           {"volgnr": 12,"variabele": "Totaal_baten_balans_FR","expressie":
-          	{"rekeningsoort": "balans_baten","balanscode": "Totaal balanscode", "categorie": "Financiele Rekening"},
-			"omschrijving": "baten balansmutaties cat 6.1(financiele rekening)"},
+          	{"rekeningsoort": "balans_baten","balanscode": "Totaal balanscode", "categorie": "Financiële Rekening"},
+			"omschrijving": "baten balansmutaties cat 6.1(Financiële rekening)"},
 
           {"volgnr": 13,"variabele": "Totaal_baten_FR","expressie":
           	{"formule": "Totaal_baten_taakv_FR + Totaal_baten_balans_FR"},
-			"omschrijving": "totaal baten cat 6.1(financiele rekening)"},
+			"omschrijving": "totaal baten cat 6.1(Financiële rekening)"},
 
           {"volgnr": 14,"variabele": "Emu_saldo_FR","expressie":
           	{"formule": "Totaal_lasten_FR - Totaal_baten_FR"},
-			"omschrijving": "c. EMU-saldo berekend uit de financiele rekening (cat 6.1)(financiele rekening)"},
+			"omschrijving": "c. EMU-saldo berekend uit de Financiële rekening (cat 6.1)(Financiële rekening)"},
 
           {"volgnr": 15, "variabele": "Absoluut_verschil","expressie":
           	{"formule": "ABS(Emu_saldo_LR - Emu_saldo_FR)"},
