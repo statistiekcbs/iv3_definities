@@ -332,7 +332,7 @@
 	            "omschrijving": "d=|b-c| Absolute afwijking"},
 
           {"volgnr": 16,"variabele": "relatief_verschil","expressie":
-          	{"formule": "Absoluut_verschil / Emu_saldo_LR"},
+          	{"formule": "Absoluut_verschil / Totaal_lasten_LR"},
 			"omschrijving": "e=d/a Afwijking in procenten"},
 
           {"volgnr": 17,"variabele": "Waardering controle 01","expressie":
