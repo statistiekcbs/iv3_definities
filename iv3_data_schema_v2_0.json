@@ -360,7 +360,7 @@
         "bedrag": {
           "type": "number"
         },
-        "detail":{
+        "details":{
         	"type": "object"
         }
       }
