@@ -382,11 +382,11 @@
         },
         "bedrag": {
           "type": "number"
-        }
-      },
-      "details":{
+        },
+        "details":{
         	"type": "object"
         }
+      }
     },
     "balans_standen_schema": {
       "type": "object",
