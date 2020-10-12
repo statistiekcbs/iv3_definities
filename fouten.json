@@ -1,0 +1,29 @@
+{
+  "fouten_overzicht" : [
+  	{"foutcode":"SF001","omschrijving":"het element metadata ontbreekt","melding":"Het verplichte element metadata is niet aangetroffen ."},
+  	{"foutcode":"SF002","omschrijving":"sleutel binnen metadata ontbreekt","melding":"Binnen de metadata is sleutel <fout> niet aangetroffen ."},
+  	{"foutcode":"SF003","omschrijving":"onbekende sleutel binnen metadata","melding":"Er is een onbekende sleutel <fout>  aangetroffen binnen metadata ."},
+  	{"foutcode":"SF004","omschrijving":"onjuist format waarde metadata","melding":"Binnen de metadata is de waarde bij sleutel <extra> niet van het juiste type: <goed> werd verwacht."},
+	{"foutcode":"SF005","omschrijving":"het element contactpersoon ontbreekt","melding":"Het verplichte element contactpersoon is niet aangetroffen ."},
+	{"foutcode":"SF006","omschrijving":"sleutel binnen contactpersoon ontbreekt","melding":"Binnen de contactpersoon is sleutel <fout> niet aangetroffen ."},
+	{"foutcode":"SF007","omschrijving":"onbekende sleutel binnen contactpersoon","melding":"Er is een onbekende sleutel <fout>  aangetroffen binnen contactpersoon ."},
+	{"foutcode":"SF008","omschrijving":"onjuist format waarde contactpersoon","melding":"Binnen het element contactpersoon is de waarde bij sleutel <extra> niet van het juiste type: <goed> werd verwacht, maar <fout> is aangetroffen."},
+	{"foutcode":"SF009","omschrijving":"waarde contactpersoon niet gevuld","melding":"Binnen het element contactpersoon is niks ingevuld bij de sleutel <fout>"},
+	{"foutcode":"SF010","omschrijving":"het element data is niet aangetroffen","melding":"Het verplichte element data is niet aangetroffen ."},
+	{"foutcode":"SF011","omschrijving":"het element baten is niet aangetroffen","melding":"binnen het element data is het verplichte element baten niet aangetroffen ."},
+	{"foutcode":"DF001","omschrijving":"onjuiste taakveld-code gebruikt","melding":"Binnen het onderdeel <onderdeel> is de code <fout> niet toegestaan als taakveld.  "},
+	{"foutcode":"DF002","omschrijving":"onjuiste categorie-code gebruikt","melding":"Binnen het onderdeel <onderdeel> is de code <fout> niet toegestaan als categorie. "},
+	{"foutcode":"DF003","omschrijving":"onjuiste balans-code gebruikt","melding":"Binnen het onderdeel <onderdeel> is de code <fout> niet toegestaan als balans code.  "},
+	{"foutcode":"DF004","omschrijving":"onjuiste stand-per-code gebruikt","melding":"Binnen het onderdeel <onderdeel> is de code <fout> niet toegestaan als standper.  "},
+	{"foutcode":"PF001","omschrijving":"Controle 1 onvoldoende","melding":"Het saldo niet-financiële rekening niet gelijk aan het saldo van de financiële rekening. Het gevonden percentage is <fout>, terwijl <goed> maximaal is toegestaan."},
+	{"foutcode":"PF002","omschrijving":"Controle 2 onvoldoende","melding":"Gebruik juiste categorieën (6.1 en 7.5) op financiële balans. Het gevonden percentage is <fout>, terwijl <goed> maximaal is toegestaan."},
+	{"foutcode":"PF003","omschrijving":"Controle 3 onvoldoende","melding":"Ontwikkeling balansstanden - mutaties in de matrix. Het gevonden percentage is <fout>, terwijl <goed> maximaal is toegestaan."},
+	{"foutcode":"PF004","omschrijving":"Controle 4 onvoldoende","melding":"Verrekencategorieën. Het gevonden percentage is <fout>, terwijl <goed> maximaal is toegestaan."},
+	{"foutcode":"PF005","omschrijving":"Controle 5 onvoldoende","melding":"Categorie 6.1 buiten financiële balans. Het gevonden percentage is <fout>, terwijl <goed> maximaal is toegestaan."},
+	{"foutcode":"PF006","omschrijving":"Controle 6 onvoldoende","melding":"Totaal lasten taakvelden is niet gelijk aan totaal baten taakvelden. Het gevonden verschil is <fout>, terwijl <goed> maximaal is toegestaan."},
+	{"foutcode":"PF007","omschrijving":"Controle 7 onvoldoende","melding":"Totaal primo stand balans activa is niet gelijk aan totaal primo stand balans passiva.  Het gevonden verschil is <fout>, terwijl <goed> maximaal is toegestaan."},
+	{"foutcode":"PF008","omschrijving":"Controle 8 onvoldoende","melding":"Totaal ultimo stand balans activa is niet gelijk aan totaal ultimo stand balans passiva.  Het gevonden verschil is <fout>, terwijl <goed> maximaal is toegestaan."},
+	{"foutcode":"PF009","omschrijving":"Controle 9 onvoldoende","melding":"De controle op het juiste gebruik van categorieën 4.3.9 en 4.4.9 levert een onvoldoende op.  De gevonden waarde is <fout>, terwijl <goed> maximaal is toegestaan."},
+	{"foutcode":"PF099","omschrijving":"Plaus controle onmogelijk","melding":"Vanwege het ontbreken van <fout> is het onmogelijk om plausibiliteitsconrtrole <extra> uit te voeren."}
+]
+}
