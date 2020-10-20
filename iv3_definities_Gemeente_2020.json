@@ -1,6 +1,6 @@
 {
   "metadata": {
-  	"overheidslaag": "Gemeente", "boekjaar": "2020", "omschrijving": "Iv3 definitiebestand versie 2.0" 
+  	"overheidslaag": "Gemeente", "boekjaar": "2020", "omschrijving": "Iv3 definitiebestand versie 2.1" 
   	},
   "codelijsten": {
     "taakveld": {
@@ -286,6 +286,95 @@
 	   		{"code":"MJR_2023","omschrijving":"Meerjarenraming 2023"}
 	   	]
     }},
+   "controles": [
+    {
+      "nummer": 1,
+      "foutcode": "PF001",
+	  "calculaties":[
+		{
+		"periode": [1,2,3,4,5]
+		}
+	  ]
+    },
+    {
+      "nummer": 2,
+      "foutcode": "PF002",
+	  "calculaties":[
+		{
+        "periode": [1,2,3,4,5],
+		"balanscode": ["A1311","A1312","A1313","A1321","A1322","A1323","A1331a","A1331b","A1332a","A1332b","A1332c","A221","A222a","A222b","A223a","A223b","A224","A225a","A225b","A225c","A23","A29a","A29b","A29c","A29d","P131","P132","P133","P134","P135a","P135b","P136","P137","P138","P139","P140","P211a","P211b","P212","P213","P29a","P29b","P29c","P29d"]
+		}
+	  ]
+    },
+	{
+	  "nummer": 3,
+      "foutcode": "PF003",
+      "calculaties": [
+		  {
+          "periode": [1,2,3,4],
+          "balanscode": ["A1311","A1312","A1313","A1321","A1322","A1323","A1331a","A1331b","A1332a","A1332b","A1332c","A221","A222a","A222b","A223a","A223b","A224","A225a","A225b","A225c","A23","A29a","A29b","A29c","A29d","P131","P132","P133","P134","P135a","P135b","P136","P137","P138","P139","P140","P211a","P211b","P212","P213","P29a","P29b","P29c","P29d"]
+          },
+		  {
+          "periode": [5],
+          "balanscode": ["A111","A112","A113","A121","A122","A123","A124","A125","A126","A129","A1311","A1312","A1313","A1321","A1322","A1323","A1331a","A1331b","A1332a","A1332b","A1332c","A212","A213","A214","A215","A221","A222a","A222b","A223a","A223b","A224","A225a","A225b","A225c","A23","A29a","A29b","A29c","A29d","P111","P112","P114","P12","P131","P132","P133","P134","P135a","P135b","P136","P137","P138","P139","P140","P211a","P211b","P212","P213","P29a","P29b","P29c","P29d"]
+		  }
+		]
+	},
+	{
+      "nummer": 4,
+      "foutcode": "PF004",
+	  "calculaties":[
+		{
+		"periode": [1,2,3,4,5]
+		}
+	  ]
+    },
+	{
+      "nummer": 5,
+      "foutcode": "PF005",
+	  "calculaties":[
+		{
+		"periode": [1,2,3,4,5]
+		}
+	  ]
+    },
+	{
+      "nummer": 6,
+      "foutcode": "PF006",
+	  "calculaties":[
+		{
+		"periode": [0,5]
+		}
+	  ]
+    },
+	{
+      "nummer": 7,
+      "foutcode": "PF007",
+	  "calculaties":[
+		{
+		"periode": [5]
+		}
+	  ]
+    },
+	{
+      "nummer": 8,
+      "foutcode": "PF008",
+	  "calculaties":[
+		{
+		"periode": [5]
+		}
+	  ]
+    },
+	{
+      "nummer": 9,
+      "foutcode": "PF009",
+	  "calculaties":[
+		{
+		"periode": [1,2,3,4,5]
+		}
+	  ]
+    }
+  ],
   "grijze_cellen": {
     "lasten": [
      	{"categorie":"2.1","taakveld":"0.1"},
