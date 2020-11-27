@@ -106,7 +106,7 @@
           ]
         },
         "datum": {
-          "$id": "#/properties/metadata/properties/status",
+          "$id": "#/properties/metadata/properties/datum",
           "title": "datum schema",
           "type": "string",
           "pattern": "(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])(\\[0-9]+)?(Z|[+-](?:2[0-3]|[01][0-9]):[0-5][0-9])?$"
@@ -149,7 +149,7 @@
           ]
         },
         "email": {
-          "$id": "#/properties/contact/properties/emailadres",
+          "$id": "#/properties/contact/properties/email",
           "title": "emailadres schema",
           "type": "string",
           "pattern": "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$",
@@ -158,7 +158,7 @@
           ]
         },
         "telefoon": {
-          "$id": "#/properties/contact/properties/telefoonnummer",
+          "$id": "#/properties/contact/properties/telefoon",
           "type": "string",
           "title": "telefoonnummer schema",
           "pattern": "^(.*)$",
@@ -170,7 +170,7 @@
     },
     "opmerkingen": {
       "$id": "#/properties/opmerkingen",
-      "type": "array",
+      "type": "object",
       "title": "opmerkingen schema",
       "required": [
         "tekst"
@@ -178,7 +178,7 @@
       "additionalProperties": false,
       "properties": {
         "tekst": {
-          "$id": "#/properties/opmerkingen/propeties/tekst",
+          "$id": "#/properties/opmerkingen/properties/tekst",
           "title": "tekst schema",
           "type": "string",
           "pattern": "^(.*)$",
@@ -187,7 +187,7 @@
           ]
         },
         "auteur":{
-        	"$id": "#/properties/opmerkingen/propeties/auteur",
+        	"$id": "#/properties/opmerkingen/properties/auteur",
         	"title": "auteur schema",
           "type": "string",
           "pattern": "^(.*)$",
@@ -201,7 +201,7 @@
       "$id": "#/properties/data",
       "type": "object",
       "title": "data schema",
-      "minProperties": 1,
+      "minProperties": 2,
       "required" :[
       	"lasten",
       	"baten"
