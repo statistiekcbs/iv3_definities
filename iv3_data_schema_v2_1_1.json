@@ -1,0 +1,481 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Iv3 data schema",
+  "description": "Iv3 data schema versie 2.1",
+  "$id": "#/",
+  "type": "object",
+  "required": [
+    "metadata",
+    "contact",
+    "data"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "$id": "#/properties/metadata",
+      "type": "object",
+      "title": "metadata schema",
+      "required": [
+        "overheidslaag",
+        "overheidsnummer",
+        "overheidsnaam",
+        "boekjaar",
+        "periode",
+        "status",
+        "datum",
+        "details_openbaar",
+        "financieel_pakket",
+        "export_software"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "overheidslaag": {
+          "$id": "#/properties/metadata/properties/overheidslaag",
+          "title": "overheidslaag schema",
+          "type": "string",
+          "oneOf": [
+            {
+              "$ref": "#/definitions/overheidslaag_codelijst"
+            }
+          ],
+          "examples": [
+            "Gemeente",
+            "Provincie",
+            "GR"
+          ]
+        },
+        "overheidsnummer": {
+          "$id": "#/properties/metadata/properties/overheidsnummer",
+          "title": "overheidsnummer schema",
+          "type": "string",
+          "pattern": "^(.*)$",
+          "examples": [
+            "0001",
+            "0002",
+            "0003"
+          ]
+        },
+        "overheidsnaam": {
+          "$id": "#/properties/metadata/properties/overheidsnaam",
+          "title": "overheidsnaam schema",
+          "type": "string",
+          "pattern": "^(.*)$",
+          "examples": [
+            "Den Haag",
+            "Zuid-Holland",
+            "Regio Twente"
+          ]
+        },
+        "boekjaar": {
+          "$id": "#/properties/metadata/properties/boekjaar",
+          "type": "number",
+          "title": "boekjaar schema",
+          "examples": [
+            2018,
+            2019,
+            2020
+          ]
+        },
+        "periode": {
+          "$id": "#/properties/metadata/properties/periode",
+          "title": "periode schema",
+          "type": "number",
+          "oneOf": [
+            {
+              "$ref": "#/definitions/periode_codelijst"
+            }
+          ],
+          "examples": [
+            1,
+            2,
+            3
+          ]
+        },
+        "status": {
+          "$id": "#/properties/metadata/properties/status",
+          "title": "status schema",
+          "type": "string",
+          "oneOf": [
+            {
+              "$ref": "#/definitions/status_codelijst"
+            }
+          ],
+          "examples": [
+            "Realisatie",
+            "Begroting"
+          ]
+        },
+        "datum": {
+          "$id": "#/properties/metadata/properties/datum",
+          "title": "datum schema",
+          "type": "string",
+          "pattern": "(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])(\\[0-9]+)?(Z|[+-](?:2[0-3]|[01][0-9]):[0-5][0-9])?$"
+        },
+        "details_openbaar": {
+          "$id": "#/properties/metadata/properties/details_openbaar",
+          "title": "details_openbaar schema",
+          "type": "boolean"
+        },
+        "financieel_pakket": {
+          "type": "string",
+          "pattern": "^(.*)$",
+          "title": "financieel_pakket schema"
+        },
+        "export_software": {
+          "type": "string",
+          "pattern": "^(.*)$",
+          "title": "export_software schema"
+        }
+      }
+    },
+    "contact": {
+      "$id": "#/properties/contact",
+      "type": "object",
+      "title": "contact schema",
+      "required": [
+        "naam",
+        "email",
+        "telefoon"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "naam": {
+          "$id": "#/properties/contact/properties/naam",
+          "title": "naam schema",
+          "type": "string",
+          "pattern": "^(.*)$",
+          "examples": [
+            "Piet Afzender"
+          ]
+        },
+        "email": {
+          "$id": "#/properties/contact/properties/email",
+          "title": "emailadres schema",
+          "type": "string",
+          "pattern": "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$",
+          "examples": [
+            "p.afzender@gemeente.nl"
+          ]
+        },
+        "telefoon": {
+          "$id": "#/properties/contact/properties/telefoon",
+          "type": "string",
+          "title": "telefoonnummer schema",
+          "pattern": "^(.*)$",
+          "examples": [
+            "0612345678"
+          ]
+        }
+      }
+    },
+    "opmerkingen": {
+      "$id": "#/properties/opmerkingen",
+      "type": "array",
+      "title": "opmerkingen schema",
+      "items": {
+        "type": "object",
+        "required": [
+          "tekst"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "tekst": {
+            "$id": "#/properties/opmerkingen/items/properties/tekst",
+            "title": "tekst schema",
+            "type": "string",
+            "pattern": "^(.*)$",
+            "examples": [
+              "Dit is een opmerking"
+            ]
+          },
+          "auteur": {
+            "$id": "#/properties/opmerkingen/items/properties/auteur",
+            "title": "auteur schema",
+            "type": "string",
+            "pattern": "^(.*)$",
+            "examples": [
+              "J.Klaassen"
+            ]
+          }
+        }
+      }
+    },
+    "data": {
+      "$id": "#/properties/data",
+      "type": "object",
+      "title": "data schema",
+      "minProperties": 2,
+      "required": [
+        "lasten",
+        "baten"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "lasten": {
+          "$id": "#/properties/data/properties/lasten",
+          "title": "lasten schema",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/lasten_schema"
+              }
+            ]
+          }
+        },
+        "baten": {
+          "$id": "#/properties/data/properties/baten",
+          "title": "baten schema",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/baten_schema"
+              }
+            ]
+          }
+        },
+        "balans_lasten": {
+          "$id": "#/properties/data/properties/balans_lasten",
+          "title": "balans_lasten schema",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/balans_lasten_schema"
+              }
+            ]
+          }
+        },
+        "balans_baten": {
+          "$id": "#/properties/data/properties/balans_baten",
+          "title": "balans_baten schema",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/balans_baten_schema"
+              }
+            ]
+          }
+        },
+        "balans_standen": {
+          "$id": "#/properties/data/properties/balans_standen",
+          "title": "balans_standen schema",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/balans_standen_schema"
+              }
+            ]
+          }
+        },
+        "kengetallen": {
+          "$id": "#/properties/data/properties/kengetallen",
+          "title": "kengetallen schema",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/kengetallen_schema"
+              }
+            ]
+          }
+        },
+        "beleidsindicatoren": {
+          "$id": "#/properties/data/properties/beleidsindicatoren",
+          "title": "beleidsindicatoren schema",
+          "type": "array",
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/definitions/beleidsindicatoren_schema"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "lasten_schema": {
+      "type": "object",
+      "required": [
+        "taakveld",
+        "categorie",
+        "bedrag"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "taakveld": {
+          "type": "string"
+        },
+        "categorie": {
+          "type": "string"
+        },
+        "bedrag": {
+          "type": "number"
+        },
+        "details": {
+          "type": "object"
+        }
+      }
+    },
+    "baten_schema": {
+      "type": "object",
+      "required": [
+        "taakveld",
+        "categorie",
+        "bedrag"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "taakveld": {
+          "type": "string"
+        },
+        "categorie": {
+          "type": "string"
+        },
+        "bedrag": {
+          "type": "number"
+        },
+        "details": {
+          "type": "object"
+        }
+      }
+    },
+    "balans_lasten_schema": {
+      "type": "object",
+      "required": [
+        "balanscode",
+        "categorie",
+        "bedrag"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "balanscode": {
+          "type": "string"
+        },
+        "categorie": {
+          "type": "string"
+        },
+        "bedrag": {
+          "type": "number"
+        },
+        "details": {
+          "type": "object"
+        }
+      }
+    },
+    "balans_baten_schema": {
+      "type": "object",
+      "required": [
+        "balanscode",
+        "categorie",
+        "bedrag"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "balanscode": {
+          "type": "string"
+        },
+        "categorie": {
+          "type": "string"
+        },
+        "bedrag": {
+          "type": "number"
+        },
+        "details": {
+          "type": "object"
+        }
+      }
+    },
+    "balans_standen_schema": {
+      "type": "object",
+      "required": [
+        "balanscode",
+        "standper",
+        "bedrag"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "balanscode": {
+          "type": "string"
+        },
+        "standper": {
+          "type": "string"
+        },
+        "bedrag": {
+          "type": "number"
+        },
+        "details": {
+          "type": "object"
+        }
+      }
+    },
+    "kengetallen_schema": {
+      "type": "object",
+      "required": [
+        "verslagperiode",
+        "kengetal",
+        "waarde"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "verslagperiode": {
+          "type": "string"
+        },
+        "kengetal": {
+          "type": "string"
+        },
+        "waarde": {
+          "type": "string"
+        }
+      }
+    },
+    "beleidsindicatoren_schema": {
+      "type": "object",
+      "required": [
+        "verslagperiode",
+        "beleidsindicator",
+        "waarde"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "verslagperiode": {
+          "type": "string"
+        },
+        "beleidsindicator": {
+          "type": "string"
+        },
+        "waarde": {
+          "type": "string"
+        }
+      }
+    },
+    "overheidslaag_codelijst": {
+      "enum": [
+        "Gemeente",
+        "Provincie",
+        "GR"
+      ]
+    },
+    "periode_codelijst": {
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "status_codelijst": {
+      "enum": [
+        "Begroting",
+        "Realisatie"
+      ]
+    }
+  }
+}
