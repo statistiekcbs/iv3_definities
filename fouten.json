@@ -15,6 +15,7 @@
 	{"foutcode":"SF013","omschrijving":"het element balans_baten is niet aangetroffen","melding":"binnen het element data is het verplichte element balans_baten niet aangetroffen."},
 	{"foutcode":"SF014","omschrijving":"het element balans_lasten is niet aangetroffen","melding":"binnen het element data is het verplichte element balans_lasten niet aangetroffen."},
 	{"foutcode":"SF015","omschrijving":"het element balans_standen is niet aangetroffen","melding":"binnen het element data is het verplichte element balans_standen niet aangetroffen."},
+	{"foutcode":"SF016","omschrijving":"sleutel binnen data ontbreekt","melding":"Binnen het onderdeel <onderdeel> ontbreekt de sleutel <fout>."},
 	{"foutcode":"DF001","omschrijving":"onjuiste taakveld-code gebruikt","melding":"Binnen het onderdeel <onderdeel> is de code <fout> niet toegestaan als taakveld."},
 	{"foutcode":"DF002","omschrijving":"onjuiste categorie-code gebruikt","melding":"Binnen het onderdeel <onderdeel> is de code <fout> niet toegestaan als categorie."},
 	{"foutcode":"DF003","omschrijving":"onjuiste balans-code gebruikt","melding":"Binnen het onderdeel <onderdeel> is de code <fout> niet toegestaan als balans code."},
