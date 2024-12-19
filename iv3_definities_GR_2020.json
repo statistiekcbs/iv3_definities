@@ -255,7 +255,26 @@
 				}
  	     ]}]
     },
-	"verslagperiode":{
+    "kengetallen":{
+    	"codelijst":[
+    		{"code":"fk.1","omschrijving":"Netto schuldquote"},
+	   		{"code":"fk.2","omschrijving":"Netto schuldquote gecorrigeerd voor alle verstrekte leningen"},    
+	   		{"code":"fk.3","omschrijving":"Solvabiliteitsratio"},
+		 		{"code":"fk.4","omschrijving":"Structurele exploitatieruimte"},
+ 				{"code":"fk.5","omschrijving":"Grondexploitatie"},
+   			{"code":"fk.6","omschrijving":"Belastingcapaciteit"}
+   		]
+   	},
+    "beleidsindicatoren":{
+    	"codelijst":[
+    		{"code":"bi.1","omschrijving":"Formatie (Fte per 1.000 inwoners)"},
+   			{"code":"bi.2","omschrijving":"Bezetting (Fte per 1.000 inwoners)"},    
+ 	  		{"code":"bi.3","omschrijving":"Apparaatskosten (kosten per inwoner)"},    
+  	 		{"code":"bi.4","omschrijving":"Externe inhuur (kosten inhuur externen als % van totale loonsom + totale kosten inhuur externen)"},       		   		
+   			{"code":"bi.5","omschrijving":"Overhead (% van totale lasten)"}
+   		]
+   	},
+    "verslagperiode":{
     	"codelijst":[
     		{"code":"Rek_2018","omschrijving":"Rekening 2018"},
 	   		{"code":"Beg_2019","omschrijving":"Begroting 2019"},    

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Iv3 data schema",
-  "description": "Iv3 data schema versie 2.1",
+  "description": "Iv3 data schema versie 2.0",
   "$id": "#/",
   "type": "object",
   "required": [
@@ -106,7 +106,7 @@
           ]
         },
         "datum": {
-          "$id": "#/properties/metadata/properties/datum",
+          "$id": "#/properties/metadata/properties/status",
           "title": "datum schema",
           "type": "string",
           "pattern": "(2[0-3]|[01][0-9]):([0-5][0-9]):([0-5][0-9])(\\[0-9]+)?(Z|[+-](?:2[0-3]|[01][0-9]):[0-5][0-9])?$"
@@ -143,13 +143,13 @@
           "$id": "#/properties/contact/properties/naam",
           "title": "naam schema",
           "type": "string",
-          "pattern": "\\S",
+          "pattern": "^(.*)$",
           "examples": [
             "Piet Afzender"
           ]
         },
         "email": {
-          "$id": "#/properties/contact/properties/email",
+          "$id": "#/properties/contact/properties/emailadres",
           "title": "emailadres schema",
           "type": "string",
           "pattern": "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$",
@@ -158,7 +158,7 @@
           ]
         },
         "telefoon": {
-          "$id": "#/properties/contact/properties/telefoon",
+          "$id": "#/properties/contact/properties/telefoonnummer",
           "type": "string",
           "title": "telefoonnummer schema",
           "pattern": "^(.*)$",
@@ -172,31 +172,28 @@
       "$id": "#/properties/opmerkingen",
       "type": "array",
       "title": "opmerkingen schema",
-      "items": {
-        "type": "object",
-        "required": [
-          "tekst"
-        ],
-        "additionalProperties": false,
-        "properties": {
-          "tekst": {
-            "$id": "#/properties/opmerkingen/items/properties/tekst",
-            "title": "tekst schema",
-            "type": "string",
-            "pattern": "^(.*)$",
-            "examples": [
-              "Dit is een opmerking"
-            ]
-          },
-          "auteur": {
-            "$id": "#/properties/opmerkingen/items/properties/auteur",
-            "title": "auteur schema",
-            "type": "string",
-            "pattern": "^(.*)$",
-            "examples": [
-              "J.Klaassen"
-            ]
-          }
+      "required": [
+        "tekst"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "tekst": {
+          "$id": "#/properties/opmerkingen/propeties/tekst",
+          "title": "tekst schema",
+          "type": "string",
+          "pattern": "^(.*)$",
+          "examples": [
+            "Dit is een opmerking"
+          ]
+        },
+        "auteur":{
+        	"$id": "#/properties/opmerkingen/propeties/auteur",
+        	"title": "auteur schema",
+          "type": "string",
+          "pattern": "^(.*)$",
+          "examples": [
+            "J.Klaassen"
+          ]
         }
       }
     },
@@ -204,13 +201,10 @@
       "$id": "#/properties/data",
       "type": "object",
       "title": "data schema",
-      "minProperties": 2,
-      "required": [
-        "lasten",
-        "baten",
-        "balans_baten",
-        "balans_lasten",
-        "balans_standen"
+      "minProperties": 1,
+      "required" :[
+      	"lasten",
+      	"baten"
       ],
       "additionalProperties": false,
       "properties": {
@@ -219,7 +213,11 @@
           "title": "lasten schema",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/lasten_schema"
+            "anyOf": [
+              {
+                "$ref": "#/definitions/lasten_schema"
+              }
+            ]
           }
         },
         "baten": {
@@ -227,7 +225,11 @@
           "title": "baten schema",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/baten_schema"
+            "anyOf": [
+              {
+                "$ref": "#/definitions/baten_schema"
+              }
+            ]
           }
         },
         "balans_lasten": {
@@ -235,7 +237,11 @@
           "title": "balans_lasten schema",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/balans_lasten_schema"
+            "anyOf": [
+              {
+                "$ref": "#/definitions/balans_lasten_schema"
+              }
+            ]
           }
         },
         "balans_baten": {
@@ -243,7 +249,11 @@
           "title": "balans_baten schema",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/balans_baten_schema"
+            "anyOf": [
+              {
+                "$ref": "#/definitions/balans_baten_schema"
+              }
+            ]
           }
         },
         "balans_standen": {
@@ -251,7 +261,11 @@
           "title": "balans_standen schema",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/balans_standen_schema"
+            "anyOf": [
+              {
+                "$ref": "#/definitions/balans_standen_schema"
+              }
+            ]
           }
         },
         "kengetallen": {
@@ -259,7 +273,11 @@
           "title": "kengetallen schema",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/kengetallen_schema"
+            "anyOf": [
+              {
+                "$ref": "#/definitions/kengetallen_schema"
+              }
+            ]
           }
         },
         "beleidsindicatoren": {
@@ -267,7 +285,11 @@
           "title": "beleidsindicatoren schema",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/beleidsindicatoren_schema"
+            "anyOf": [
+              {
+                "$ref": "#/definitions/beleidsindicatoren_schema"
+              }
+            ]
           }
         }
       }
@@ -281,7 +303,7 @@
         "categorie",
         "bedrag"
       ],
-      "additionalProperties": true,
+      "additionalProperties": false,
       "properties": {
         "taakveld": {
           "type": "string"
@@ -292,8 +314,8 @@
         "bedrag": {
           "type": "number"
         },
-        "details": {
-          "type": "object"
+        "details":{
+        	"type": "object"
         }
       }
     },
@@ -304,7 +326,7 @@
         "categorie",
         "bedrag"
       ],
-      "additionalProperties": true,
+      "additionalProperties": false,
       "properties": {
         "taakveld": {
           "type": "string"
@@ -315,8 +337,8 @@
         "bedrag": {
           "type": "number"
         },
-        "details": {
-          "type": "object"
+        "details":{
+        	"type": "object"
         }
       }
     },
@@ -327,7 +349,7 @@
         "categorie",
         "bedrag"
       ],
-      "additionalProperties": true,
+      "additionalProperties": false,
       "properties": {
         "balanscode": {
           "type": "string"
@@ -338,8 +360,8 @@
         "bedrag": {
           "type": "number"
         },
-        "details": {
-          "type": "object"
+        "detail":{
+        	"type": "object"
         }
       }
     },
@@ -350,7 +372,7 @@
         "categorie",
         "bedrag"
       ],
-      "additionalProperties": true,
+      "additionalProperties": false,
       "properties": {
         "balanscode": {
           "type": "string"
@@ -360,11 +382,11 @@
         },
         "bedrag": {
           "type": "number"
-        },
-        "details": {
-          "type": "object"
         }
-      }
+      },
+      "details":{
+        	"type": "object"
+        }
     },
     "balans_standen_schema": {
       "type": "object",
@@ -373,7 +395,7 @@
         "standper",
         "bedrag"
       ],
-      "additionalProperties": true,
+      "additionalProperties": false,
       "properties": {
         "balanscode": {
           "type": "string"
@@ -384,8 +406,8 @@
         "bedrag": {
           "type": "number"
         },
-        "details": {
-          "type": "object"
+        "details":{
+        	"type": "object"
         }
       }
     },
