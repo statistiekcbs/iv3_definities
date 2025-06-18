@@ -1,5 +1,5 @@
 # iv3_modellen
-sjablonen, controlebestanden en hulp-info betreffende iv3
+sjablonen, controlebestanden en hulp-info betreffende iv3 leveringen via json
 
 De naamgeving is als volgt: "iv3_definities_[overheidslaag]_[boekjaar].json".
 
@@ -18,3 +18,7 @@ Inmiddels is ook de eerste controle binnen de sjablonen opgenomen, zodat elk sja
 Voorlopig zullen niet alle controles in de bestanden worden opgenomen, vanwege de arbeidsintensiteit hiervan.
 
 inmiddels is ook een JSON-Schema toegevoegd: de controles zijn gesplitst in 2 bestanden een schema, voor de 'grammatica' van alle leveringen en een definitie bestand voor de jaarlijks in te stellen controles en codelijsten.
+
+Voor meer informatie over iv3 leveringen via json, zie:
+https://www.cbs.nl/kredo
+en klik vervolgens op de tegel "Inzendinstructie"
